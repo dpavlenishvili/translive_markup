@@ -1,0 +1,2963 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,400);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: white;
+}
+
+@font-face {
+  font-family: "ProximaNova,Helvetica,Arial,Sans-Serif";
+  src: url("../fonts/Mark Simonson - Proxima Nova Alt Bold-webfont.ttf");
+}
+#main-header {
+  background: none;
+  position: absolute;
+  width: 100%;
+}
+
+.reg-cont {
+  background-image: url(../image/scania-r500-topline-truck.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-baq {
+  background-image: url(../image/scania-r500-topline-truck.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.two-side {
+  overflow: hidden;
+  height: 100%;
+}
+.two-side .left-side .registration {
+  top: 11rem;
+  left: 12.5%;
+  position: absolute;
+}
+.two-side .left-side .registration h2 {
+  display: none;
+}
+.two-side .left-side .registration .reg-title {
+  color: #18364a;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-left: 1rem;
+  text-align: center;
+  position: relative;
+}
+.two-side .left-side .registration .reg-title::before {
+  content: "";
+  position: absolute;
+  height: 1.6rem;
+  width: 1.3rem;
+  background: url(../image/lock.png) no-repeat;
+  background-size: 100%;
+  margin-left: -2.5rem;
+  margin-top: 0.5rem;
+}
+.two-side .left-side .registration form {
+  position: relative;
+  z-index: 2;
+}
+.two-side .left-side .registration form input {
+  width: 16rem;
+  height: 2.5rem;
+  border-radius: 12px;
+  border: 1.5px solid #269087;
+  margin-top: 2.5rem;
+  outline: none;
+  text-indent: 1rem;
+  color: #18364a;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.two-side .left-side .registration form ::placeholder {
+  color: #269087;
+  opacity: 1;
+  /* Firefox */
+  text-indent: 1rem;
+}
+.two-side .left-side .registration form select {
+  width: 16rem;
+  height: 2.5rem;
+  border-radius: 12px;
+  border: 1.5px solid #269087;
+  margin-top: 2.5rem;
+  outline: none;
+  text-indent: 1rem;
+  color: #18364a;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.two-side .left-side .registration form select option {
+  text-indent: 1rem;
+  color: #18364a;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.two-side .left-side .registration .forgot {
+  margin-left: 16rem;
+  margin-top: -2rem;
+  padding-bottom: 2rem;
+  color: #269087;
+  z-index: 2;
+  cursor: pointer;
+}
+.two-side .left-side .registration .forgot:hover {
+  text-decoration: underline;
+}
+.two-side .left-side .registration .log-button {
+  margin-left: 21rem;
+  padding: 0.5rem 2.5rem 0.7rem 2.5rem;
+  border: 2px solid #18364a;
+  color: white;
+  background-color: #18364a;
+  border-radius: 15px;
+  z-index: 2;
+}
+.two-side .left-side .registration .log-button:hover {
+  background-color: white;
+  transition: 0.5s;
+  color: #18364a;
+}
+.two-side .left-side .registration .signup-lasts {
+  width: 18rem;
+  height: 9rem;
+  margin-left: 18rem;
+  margin-top: -2.7rem;
+  position: relative;
+  z-index: 2;
+}
+.two-side .left-side .registration .signup-lasts p {
+  font-size: 0.88rem;
+  padding-bottom: 0.9rem;
+}
+.two-side .left-side .registration .signup-lasts .radio {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+}
+.two-side .left-side .registration .signup-lasts .radio input {
+  width: 1.5rem;
+  height: 1rem;
+  vertical-align: middle;
+}
+.two-side .left-side .registration .signup-lasts .policy {
+  letter-spacing: 0.02rem;
+}
+.two-side .left-side .registration .signup-lasts .policy input {
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: middle;
+}
+.two-side .left-side .registration .signup-lasts .button {
+  padding: 0.5rem 2.5rem 0.7rem 2.5rem;
+  border: 2px solid #18364a;
+  color: white;
+  background-color: #18364a;
+  border-radius: 15px;
+  position: relative;
+  left: 6rem;
+}
+.two-side .left-side .registration .signup-lasts .if-login {
+  position: relative;
+  font-size: 1.3rem;
+  top: -1.8rem;
+  left: -16.5rem;
+  color: black;
+}
+.two-side .left-side .login {
+  top: 17rem;
+  left: 12.5%;
+  position: absolute;
+}
+.two-side .left-side .login h2 {
+  display: none;
+}
+.two-side .left-side .login .main-text {
+  color: #18364a;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-left: 3rem;
+  position: relative;
+}
+.two-side .left-side .login .main-text::before {
+  content: "";
+  position: absolute;
+  height: 1.6rem;
+  width: 1.3rem;
+  background: url(../image/lock.png) no-repeat;
+  background-size: 100%;
+  margin-left: -2rem;
+  margin-top: 0.5rem;
+}
+.two-side .left-side .login form {
+  position: relative;
+  z-index: 2;
+}
+.two-side .left-side .login form input {
+  width: 25rem;
+  height: 3rem;
+  border-radius: 20px;
+  border: 2px solid #269087;
+  margin-top: 2.5rem;
+  outline: none;
+  text-indent: 1rem;
+  color: #18364a;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.two-side .left-side .login form ::placeholder {
+  color: #269087;
+  opacity: 1;
+  /* Firefox */
+  text-indent: 1rem;
+}
+.two-side .left-side .login .forgot {
+  position: relative;
+  left: 15.7rem;
+  top: 1rem;
+  color: #269087;
+  z-index: 2;
+  cursor: pointer;
+}
+.two-side .left-side .login .forgot:hover {
+  text-decoration: underline;
+}
+.two-side .left-side .login .log-button {
+  position: relative;
+  top: 3rem;
+  left: 16rem;
+  padding: 0.5rem 2.5rem 0.7rem 2.5rem;
+  border: 2px solid #18364a;
+  color: white;
+  background-color: #18364a;
+  border-radius: 15px;
+  z-index: 2;
+}
+.two-side .left-side .login .log-button:hover {
+  background-color: white;
+  transition: 0.5s;
+  color: #18364a;
+}
+.two-side .left-side .reg-congratulation {
+  top: 15rem;
+  left: 12.5%;
+  position: absolute;
+}
+.two-side .left-side .reg-congratulation .text-form {
+  margin-top: 5rem;
+  font-size: 1.2rem;
+  background-color: white;
+  padding: 1.6rem;
+  border-radius: 16px;
+  color: #18364a;
+  box-shadow: rgba(33, 33, 33, 0.3) 0px 4px 18px;
+}
+.two-side .left-side .reg-congratulation span {
+  font-weight: 900;
+}
+.two-side .left-side .reg-confrimation {
+  top: 17rem;
+  left: 12.5%;
+  position: absolute;
+}
+.two-side .left-side .reg-confrimation .text-form h1 {
+  font-size: 3.2rem;
+  color: white;
+}
+.two-side .left-side .reg-confrimation .text-form h5 {
+  display: none;
+}
+.two-side .left-side .reg-confrimation .text-form p {
+  font-size: 1.7rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  color: white;
+}
+.two-side .left-side .reg-confrimation .text-form input {
+  outline: none;
+  text-indent: 1.5rem;
+  font-size: 1rem;
+  width: 28.2rem;
+  height: 3rem;
+  background: #fff;
+  border: 1.5px solid #009688;
+  border-radius: 15px;
+  color: #009688;
+}
+.two-side .left-side .reg-confrimation .text-form .sub {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: white;
+  padding: 0.3rem 2.3rem 0.5rem 2.3rem;
+  background-color: #009688;
+  border: 2px solid #009688;
+  border-radius: 8px;
+}
+.two-side .left-side .reg-confrimation .text-form .resend {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: white;
+  margin-left: 1.6rem;
+  border-radius: 8px;
+}
+.two-side .left-side .reg-confrimation .text-form .resend:hover {
+  transition: 0.5s;
+  text-decoration: underline;
+}
+.two-side .left-side .quote {
+  top: 13rem;
+  left: 12.5%;
+  position: absolute;
+}
+.two-side .left-side .quote .text-form {
+  width: 30rem;
+  color: #fff;
+}
+.two-side .left-side .quote .text-form h1 {
+  font-size: 1.8rem;
+  color: #18364a;
+  margin-top: -1rem;
+}
+.two-side .left-side .quote .text-form a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: white;
+  float: right;
+  margin-right: 2rem;
+  padding: 0.3rem 2.3rem 0.5rem 2.3rem;
+  background-color: #009688;
+  border: 2px solid #009688;
+  border-radius: 15px;
+  margin-top: 2rem;
+}
+.two-side .left-side .quote .text-form a:hover {
+  transition: 0.5s;
+  background-color: white;
+  color: #009688;
+}
+.two-side .left-side .quote .text-form div {
+  display: inline-block;
+  float: left;
+}
+.two-side .left-side .quote .text-form .inpu span {
+  color: #009688;
+  position: relative;
+  top: -0.5rem;
+  left: 0.3rem;
+}
+.two-side .left-side .quote .text-form .inpu input {
+  outline: none;
+  text-indent: 1.5rem;
+  font-size: 1rem;
+  width: 18.6rem;
+  height: 3rem;
+  background: #fff;
+  border: 0.15rem solid #009688;
+  border-radius: 15px;
+  color: #009688;
+}
+.two-side .left-side .quote .text-form .check {
+  margin-left: 6rem;
+  /* Hide the browser's default checkbox */
+  /* Create a custom checkbox */
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a blue background */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+  /* Style the checkmark/indicator */
+}
+.two-side .left-side .quote .text-form .check .container {
+  display: block;
+  position: relative;
+  margin-bottom: 3.7rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.two-side .left-side .quote .text-form .check .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.two-side .left-side .quote .text-form .check .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  border: 2px solid #009688;
+}
+.two-side .left-side .quote .text-form .check .container:hover input ~ .checkmark {
+  background-color: #ccc;
+  border: 0.15rem solid black;
+}
+.two-side .left-side .quote .text-form .check .container input:checked ~ .checkmark {
+  background-color: #ffff;
+  border: 0.15rem solid #009688;
+}
+.two-side .left-side .quote .text-form .check .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.two-side .left-side .quote .text-form .check .container input:checked ~ .checkmark:after {
+  display: block;
+}
+.two-side .left-side .quote .text-form .check .container .checkmark:after {
+  left: 1.6rem;
+  top: -0.7rem;
+  width: 1.2rem;
+  height: 2.8rem;
+  border: solid #009688;
+  border-width: 0 0.19rem 0.19rem 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.two-side .left-side .pass-cong {
+  top: 13rem;
+  left: 12.5%;
+  position: absolute;
+}
+.two-side .left-side .pass-cong .text-form {
+  color: #fff;
+}
+.two-side .left-side .pass-cong .text-form h1 {
+  font-size: 3.2rem;
+}
+.two-side .left-side .pass-cong .text-form p {
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  padding-top: 1rem;
+}
+.two-side .left-side .pass-cong .text-form dir {
+  width: 8rem;
+}
+.two-side .left-side .pass-cong .text-form dir a {
+  text-decoration: none;
+  color: white;
+  margin-left: 1rem;
+  display: block;
+  padding-top: 0.5rem;
+  cursor: pointer;
+}
+.two-side .left-side .pass-cong .text-form dir a:hover {
+  text-decoration: underline;
+  transition: 0.5s;
+}
+.two-side .left-side .pass-cong .text-form dir::before {
+  content: "";
+  border-right: 0.1rem solid #fff;
+  display: block;
+  width: 0.1rem;
+  height: 10rem;
+  position: absolute;
+  margin-top: 0rem;
+  left: 0;
+}
+.two-side .left-side .new-pass {
+  top: 17rem;
+  left: 12.5%;
+  position: absolute;
+}
+.two-side .left-side .new-pass .text-form {
+  color: #fff;
+}
+.two-side .left-side .new-pass .text-form input {
+  outline: none;
+  text-indent: 1.5rem;
+  font-size: 1rem;
+  width: 28.2rem;
+  height: 3rem;
+  background: #fff;
+  border: 1.5px solid #009688;
+  border-radius: 15px;
+  color: #009688;
+}
+.two-side .left-side .new-pass .text-form ::placeholder {
+  color: #009688;
+  opacity: 1;
+  font-size: 1rem;
+  /* Firefox */
+  text-indent: 1.5rem;
+}
+.two-side .left-side .new-pass .text-form .sub {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: white;
+  padding: 0.3rem 2.3rem 0.5rem 2.3rem;
+  background-color: #009688;
+  border: 2px solid #009688;
+  border-radius: 8px;
+}
+.two-side .left-side .new-pass .text-form .sub:hover {
+  transition: 0.5s;
+  background-color: white;
+  color: #009688;
+}
+.two-side .left-side .new-pass .text-form h1 {
+  font-size: 3.4rem;
+}
+.two-side .left-side .new-pass .text-form p {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+}
+.two-side .left-side .new-pass .text-form h5 {
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  font-weight: 500;
+  line-height: 2.7rem;
+}
+.two-side .left-side .new-pass .text-form h6 {
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  font-weight: 500;
+  line-height: 2.7rem;
+  display: none;
+}
+.two-side .left-side .new-pass .text-form dir {
+  width: 8rem;
+}
+.two-side .left-side .new-pass .text-form dir a {
+  text-decoration: none;
+  color: white;
+  margin-left: 1rem;
+  display: block;
+  padding-top: 0.5rem;
+  cursor: pointer;
+}
+.two-side .left-side .new-pass .text-form dir a:hover {
+  text-decoration: underline;
+  transition: 0.5s;
+}
+.two-side .left-side .new-pass .text-form dir::before {
+  content: "";
+  border-right: 0.1rem solid #fff;
+  display: block;
+  width: 0.1rem;
+  height: 10rem;
+  position: absolute;
+  margin-top: 0rem;
+  left: 0;
+}
+.two-side .left-side .forgot {
+  top: 19rem;
+  left: 12.5%;
+  position: absolute;
+}
+.two-side .left-side .forgot .text-form h1 {
+  font-size: 1.6rem;
+  color: white;
+  left: 2.3rem;
+  position: relative;
+}
+.two-side .left-side .forgot .text-form h1::before {
+  content: "";
+  position: absolute;
+  height: 2rem;
+  width: 1.3rem;
+  background: url(../image/lock11.png) no-repeat;
+  background-size: 100%;
+  left: -2.1rem;
+  top: 0.3rem;
+}
+.two-side .left-side .forgot .text-form h5 {
+  display: none;
+}
+.two-side .left-side .forgot .text-form p {
+  font-size: 1.7rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  color: white;
+}
+.two-side .left-side .forgot .text-form input {
+  outline: none;
+  text-indent: 1.5rem;
+  font-size: 1rem;
+  width: 28.2rem;
+  height: 3rem;
+  background: #fff;
+  border: 1.5px solid #009688;
+  border-radius: 15px;
+  color: #009688;
+}
+.two-side .left-side .forgot .text-form .sub {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: white;
+  padding: 0.3rem 2.3rem 0.5rem 2.3rem;
+  background-color: #009688;
+  border: 2px solid #009688;
+  border-radius: 14px;
+}
+.two-side .left-side .forgot .text-form .sub:hover {
+  transition: 0.5s;
+  background-color: white;
+  color: #009688;
+}
+.two-side .left-side .faq {
+  top: 11rem;
+  left: 12.5%;
+  position: absolute;
+}
+.two-side .left-side .faq .text-form h1 {
+  font-size: 5.2rem;
+  color: #18364a;
+}
+.two-side .left-side .faq .text-form p {
+  font-size: 1rem;
+  color: #009688;
+  padding-top: 1rem;
+}
+.two-side .left-side .faq .text-form div {
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 1rem;
+  width: 26rem;
+  color: #18364a;
+  border: 1px solid #18364a;
+  border-radius: 13px;
+}
+.two-side .left-side .error {
+  top: 14rem;
+  left: 12.5%;
+  position: absolute;
+}
+.two-side .left-side .error .text-form {
+  color: #fff;
+}
+.two-side .left-side .error .text-form h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  font-weight: 700;
+}
+.two-side .left-side .error .text-form p {
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  padding-top: 1rem;
+}
+.two-side .left-side .error .text-form dir {
+  width: 8rem;
+}
+.two-side .left-side .error .text-form dir a {
+  text-decoration: none;
+  color: white;
+  margin-left: 1rem;
+  display: block;
+  padding-top: 0.5rem;
+  cursor: pointer;
+}
+.two-side .left-side .error .text-form dir a:hover {
+  text-decoration: underline;
+  transition: 0.5s;
+}
+.two-side .left-side .error .text-form dir::before {
+  content: "";
+  border-right: 0.1rem solid #fff;
+  display: block;
+  width: 0.1rem;
+  height: 10rem;
+  position: absolute;
+  margin-top: 0rem;
+  left: 0;
+}
+.two-side .left-side .contact {
+  top: 16rem;
+  left: 6.5%;
+  position: absolute;
+  z-index: 2;
+}
+.two-side .left-side .contact nav {
+  display: none;
+  width: 100%;
+  height: 20rem;
+  background: linear-gradient(to top left, #00966e 15%, #08cf96 100%);
+}
+.two-side .left-side .contact .container {
+  position: relative;
+  width: 22rem;
+  margin: 0 auto;
+}
+.two-side .left-side .contact .container::before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 11rem;
+  width: 10rem;
+  background: url(../image/contact1.png) no-repeat;
+  background-size: 100%;
+  margin-left: -5rem;
+  margin-top: 3.5rem;
+}
+.two-side .left-side .contact .container p {
+  position: relative;
+  left: 8rem;
+  color: #fff;
+  font-size: 1.65rem;
+  font-weight: 600;
+}
+.two-side .left-side .contact .iframe {
+  display: none;
+  margin-top: 4rem;
+}
+.two-side .left-side .contact .main-text {
+  color: #18364a;
+  font-size: 1.8rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  position: relative;
+}
+.two-side .left-side .contact .main-text::before {
+  content: "";
+  position: absolute;
+  height: 2.6rem;
+  width: 2.3rem;
+  background: url(../image/paperplane.png) no-repeat;
+  background-size: 100%;
+  margin-left: -3rem;
+  margin-top: 0.3rem;
+}
+.two-side .left-side .contact input {
+  width: 12rem;
+  height: 2.5rem;
+  border-radius: 13px;
+  border: 2px solid #269087;
+  margin-top: 2.5rem;
+  outline: none;
+  text-indent: 1rem;
+  color: #18364a;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-right: 1.5rem;
+}
+.two-side .left-side .contact a {
+  padding: 0.5rem 5.5rem 0.6rem 5.5rem;
+  background-color: #18364a;
+  border: 2px solid #18364a;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+  border-radius: 15px;
+  letter-spacing: 0.3rem;
+}
+.two-side .left-side .contact a:hover {
+  transition: 0.5s;
+  background-color: white;
+  color: #18364a;
+}
+.two-side .left-side .contact .last {
+  width: 40.2rem;
+  padding-bottom: 8rem;
+  padding-top: 2rem;
+  border-radius: 13px;
+  border: 2px solid #269087;
+  margin-top: 2.5rem;
+  outline: none;
+  text-indent: 1rem;
+  color: #18364a;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.two-side .left-side .contact ::placeholder {
+  color: #269087;
+  opacity: 1;
+  /* Firefox */
+  text-indent: 1rem;
+}
+.two-side .right-side {
+  height: 45rem;
+  position: relative;
+  z-index: 1;
+  width: 50%;
+  left: 50%;
+}
+.two-side .right-side .trapecia {
+  height: 45rem;
+  background: linear-gradient(to top left, #009688 15%, #009688 100%);
+  position: absolute;
+  top: 0px;
+  left: 39%;
+  width: 100%;
+  display: block;
+  transform: skewX(-20deg);
+}
+.two-side .right-side .main-box {
+  position: absolute;
+  z-index: 50;
+  right: 0px;
+  height: 23.5rem;
+  top: 22%;
+  background-color: rgba(33, 33, 33, 0.2);
+  padding: 0px;
+  vertical-align: top;
+  transition: 0.5;
+}
+.two-side .right-side .white-box {
+  position: relative;
+  height: 23.5rem;
+  width: 31rem;
+  background-color: white;
+  box-shadow: rgba(33, 33, 33, 0.3) 0px 4px 18px;
+  background-image: url(../image/map-small.png);
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  right: 15.5rem;
+}
+.two-side .right-side .white-box h3 {
+  font-size: 2.01rem;
+  color: #18364a;
+  text-align: center;
+  text-transform: uppercase;
+}
+.two-side .right-side .white-box .box-p {
+  font-size: 0.95rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #212121;
+  opacity: 0.75;
+  margin-top: 0.8rem;
+}
+.two-side .right-side .white-box input {
+  background-color: transparent;
+  color: #757575;
+  outline: none;
+  position: relative;
+  width: 65%;
+  font-size: 1.04rem;
+  text-transform: uppercase;
+  border-width: 0px 0px 0.1333rem;
+  border-style: solid;
+  border-color: transparent transparent #757575;
+  border-image: initial;
+  padding: 0.6667rem 0rem;
+  border-bottom: 0.1333rem solid #757575;
+}
+.two-side .right-side .white-box .track {
+  margin-top: 2.5rem;
+}
+.two-side .right-side .white-box .glas {
+  position: absolute;
+  margin-left: -5%;
+  margin-top: 2%;
+}
+.two-side .left-side1 .main-page {
+  top: 14rem;
+  left: 12.5%;
+  position: absolute;
+}
+.two-side .left-side1 .main-page .main-text {
+  color: white;
+  line-height: 7.2rem;
+  text-transform: uppercase;
+  font-size: 4.4rem;
+  letter-spacing: 0.3666666667rem;
+}
+.two-side .left-side1 .main-page .main-p {
+  letter-spacing: 0.25rem;
+  margin-top: 1rem;
+  margin-left: 3.75rem;
+  font-size: 1.533rem;
+  color: white;
+  font-weight: 300;
+}
+.two-side .left-side1 .main-page .main-p::before {
+  content: "";
+  width: 2.6667rem;
+  height: 0.1rem;
+  background-color: #009688;
+  position: relative;
+  display: block;
+  top: 0.9666rem;
+  right: 3.733rem;
+}
+.two-side .right-side1 {
+  height: 45rem;
+  position: relative;
+  z-index: 1;
+  width: 50%;
+  left: 50%;
+}
+.two-side .right-side1 .trapecia {
+  height: 45rem;
+  background: linear-gradient(to top left, #009688 15%, #009688 100%);
+  position: absolute;
+  top: 0px;
+  left: 39%;
+  width: 100%;
+  display: block;
+  transform: skewX(-20deg);
+}
+.two-side .right-side1 .main-box {
+  position: absolute;
+  z-index: 50;
+  right: 0px;
+  height: 23.5rem;
+  top: 22%;
+  background-color: rgba(33, 33, 33, 0.2);
+  padding: 0px;
+  vertical-align: top;
+  transition: 0.5;
+}
+.two-side .right-side1 .white-box {
+  position: relative;
+  height: 23.5rem;
+  width: 31rem;
+  background-color: white;
+  box-shadow: rgba(33, 33, 33, 0.3) 0px 4px 18px;
+  background-image: url(../image/map-small.png);
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  right: 15.5rem;
+}
+.two-side .right-side1 .white-box h3 {
+  font-size: 2.01rem;
+  color: #18364a;
+  text-align: center;
+  text-transform: uppercase;
+}
+.two-side .right-side1 .white-box .box-p {
+  font-size: 0.95rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #212121;
+  opacity: 0.75;
+  margin-top: 0.8rem;
+}
+.two-side .right-side1 .white-box input {
+  background-color: transparent;
+  color: #757575;
+  outline: none;
+  position: relative;
+  width: 65%;
+  font-size: 1.04rem;
+  text-transform: uppercase;
+  border-width: 0px 0px 0.1333rem;
+  border-style: solid;
+  border-color: transparent transparent #757575;
+  border-image: initial;
+  padding: 0.6667rem 0rem;
+  border-bottom: 0.1333rem solid #757575;
+}
+.two-side .right-side1 .white-box .track {
+  margin-top: 2.5rem;
+}
+.two-side .right-side1 .white-box .glas {
+  position: absolute;
+  margin-left: -5%;
+  margin-top: 2%;
+}
+.two-side .right-side2 {
+  height: 45rem;
+  position: relative;
+  z-index: 1;
+}
+.two-side .right-side2 :before {
+  content: " ";
+  display: block;
+  height: 50rem;
+  background: linear-gradient(to top left, #00111e 15%, #4cb5ab 100%);
+  position: absolute;
+  top: 0px;
+  left: -5%;
+  width: 100%;
+  left: 65%;
+  opacity: 0.8;
+  display: block;
+  transform: skewX(-20deg);
+  z-index: 0;
+}
+.two-side .right-side2 .trapecia {
+  height: 50rem;
+  position: absolute;
+  top: 0px;
+  left: 69%;
+  width: 100%;
+  display: block;
+  transform: skewX(-20deg);
+  box-shadow: rgba(33, 33, 33, 0.3) 0px 4px 18px;
+  z-index: 2;
+}
+.two-side .right-side2 .trapecia iframe {
+  cursor: pointer;
+}
+.two-side .right-side2 .main-box {
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  height: 19.5rem;
+  top: 24%;
+  background-color: rgba(33, 33, 33, 0.2);
+  padding: 0px;
+  vertical-align: top;
+  transition: 0.5;
+}
+.two-side .right-side2 .white-box {
+  position: relative;
+  height: 19.5rem;
+  width: 31rem;
+  background-color: white;
+  box-shadow: rgba(33, 33, 33, 0.3) 0px 4px 18px;
+  background-image: url(../image/map-small.png);
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  right: 60.5%;
+}
+.two-side .right-side2 .white-box .cont-log {
+  position: relative;
+  left: 8.5rem;
+  top: 2rem;
+  width: 15%;
+}
+.two-side .right-side2 .white-box p {
+  color: #808080;
+  padding-left: 1.2rem;
+  font-size: 1.1rem;
+}
+.two-side .right-side2 .white-box p span {
+  color: #009688;
+  font-weight: 800;
+}
+.two-side .right-side2 .white-box h3 {
+  font-size: 2.01rem;
+  color: #18364a;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section .about {
+  height: 48.2rem;
+  background-color: white;
+  position: relative;
+}
+section .about .text {
+  padding-top: 5.3333333333rem;
+}
+section .about .text h2 {
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 0;
+  color: #18364a;
+  font-size: 3rem;
+  line-height: 1;
+  padding-top: 0.3333333333rem;
+  padding-bottom: 0.6666666667rem;
+}
+section .about .text .main-span {
+  font-size: 1.066rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: #18364a;
+}
+section .about .about-main {
+  width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.6666666667rem;
+}
+section .about .about-main dir {
+  float: left;
+}
+section .about .about-main .dir1 {
+  width: 40rem;
+  height: 30rem;
+}
+section .about .about-main .dir1 .d1-p {
+  padding-top: 2.8666666667rem;
+  padding-bottom: 3.9rem;
+}
+section .about .about-main .dir1 .d1-p::before {
+  content: "";
+  border-bottom: 0.1rem solid #18364a;
+  width: 4rem;
+  background-color: #009688;
+  position: relative;
+  display: block;
+  left: -13.5rem;
+  top: 4.3rem;
+}
+section .about .about-main .dir1 .p-befo {
+  margin-left: 9rem;
+  padding-bottom: 1rem;
+  color: #18364a;
+  font-size: 1.1333333333rem;
+}
+section .about .about-main .dir1 .p-befo::before {
+  content: "";
+  background-color: #009688;
+  position: absolute;
+  display: block;
+  height: 3.6rem;
+  width: 3.6rem;
+  background: url(../image/Untitled-1.png) no-repeat;
+  background-size: 100%;
+  margin-left: -5rem;
+  margin-top: 0rem;
+}
+section .about .about-main .dir1 .p-befo2 {
+  margin-left: 9rem;
+  padding-bottom: 1rem;
+  color: #18364a;
+  font-size: 1.1333333333rem;
+}
+section .about .about-main .dir1 .p-befo2::before {
+  content: "";
+  background-color: #009688;
+  position: absolute;
+  display: block;
+  height: 3.6rem;
+  width: 3.6rem;
+  background: url(../image/Untitled-2.png) no-repeat;
+  background-size: 100%;
+  margin-left: -5rem;
+  margin-top: 0rem;
+}
+section .about .about-main .dir1 .p-befo3 {
+  margin-left: 9rem;
+  padding-bottom: 1rem;
+  color: #18364a;
+  font-size: 1.1333333333rem;
+}
+section .about .about-main .dir1 .p-befo3::before {
+  content: "";
+  background-color: #009688;
+  position: absolute;
+  display: block;
+  height: 3.6rem;
+  width: 3.6rem;
+  background: url(../image/Untitled-3.png) no-repeat;
+  background-size: 100%;
+  margin-left: -5rem;
+  margin-top: 0rem;
+}
+section .about .about-main .dir1 .ppp {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #666c72;
+  margin-left: 9rem;
+  padding-bottom: 1.3333333333rem;
+}
+section .about .about-main .dir2 {
+  padding-left: 5rem;
+  width: 34rem;
+  height: 22.6666666667rem;
+  margin-top: 5rem;
+}
+section .about .about-main .dir2 .relative {
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 100%;
+}
+section .about .about-main .dir2 .relative .absolute {
+  border-radius: 5px;
+  position: absolute;
+  width: 33.3333333333rem;
+  height: 22rem;
+  top: -2.5rem;
+  left: -3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url(../image/truck.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section .about .read-mor {
+  color: black;
+  display: block;
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 160px;
+  padding: 0.7rem 2rem 0.7rem 2rem;
+  background: none;
+  border: none;
+  border-bottom: 0.2rem solid #009688;
+  font-weight: 700;
+  color: #18364a;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+section .pre-about {
+  position: relative;
+  height: 65rem;
+  display: none;
+  overflow: hidden;
+  padding-bottom: 3rem;
+}
+section .pre-about .hidd {
+  color: black;
+  display: block;
+  position: absolute;
+  bottom: 0rem;
+  font-size: 0.8rem;
+  left: 46%;
+}
+section .pre-about .hidd button {
+  padding: 0.7rem 2rem 0.7rem 2rem;
+  background-color: white;
+  border: none;
+  border-bottom: 0.2rem solid #009688;
+  font-weight: 700;
+  color: #18364a;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+section .pre-about div {
+  display: inline-block;
+  float: left;
+}
+section .pre-about h1 {
+  margin-left: 19rem;
+  font-size: 2.3rem;
+  color: #18364a;
+}
+section .pre-about p:first-child {
+  margin-left: 3rem;
+}
+section .pre-about .texx .log {
+  margin-left: 8.6rem;
+  padding-top: 1.5rem;
+}
+section .pre-about .texx .log::before {
+  content: "";
+  position: absolute;
+  height: 9rem;
+  width: 9rem;
+  background: url(../image/l1.png) no-repeat;
+  background-size: 100%;
+  left: 0rem;
+  margin-top: -0.5rem;
+}
+section .pre-about .two-trap {
+  float: right;
+  overflow: hidden;
+  width: 45rem;
+  position: relative;
+  top: -2.8rem;
+}
+section .pre-about .two-trap dir {
+  overflow: hidden;
+  width: 40rem;
+  height: 32.4rem;
+  margin-left: 7rem;
+}
+section .pre-about .two-trap dir:first-child {
+  transform: skewX(-20deg);
+}
+section .pre-about .two-trap dir:first-child::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  transform: skewX(20deg);
+  height: 100%;
+  overflow: hidden;
+  width: 130%;
+  left: -6rem;
+  background: linear-gradient(to top left, #009688 15%, #009688 100%);
+  background-image: url(../image/scania-r620-scania-trucks.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section .pre-about .two-trap dir:last-child {
+  transform: skewX(20deg);
+}
+section .pre-about .two-trap dir:last-child::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  transform: skewX(-20deg);
+  height: 100%;
+  overflow: hidden;
+  width: 130%;
+  left: -6rem;
+  background: linear-gradient(to top left, #009688 15%, #009688 100%);
+  background-image: url(../image/scania-r730-truck-road-skaniya.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section .sender {
+  height: 100%;
+  font-size: 0;
+  overflow: hidden;
+}
+section .sender dir {
+  background-color: rgba(33, 33, 33, 0.2);
+  height: 100%;
+  padding-bottom: 3rem;
+}
+section .sender div {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+section .sender div h1 {
+  color: white;
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+section .sender div p {
+  font-size: 1.02rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 2.4rem;
+}
+section .sender div a {
+  text-decoration: none;
+  text-align: center;
+  line-height: 3rem;
+  height: 3rem;
+  padding: 0 3.33333rem;
+  font-weight: 400;
+  font-size: 1.02rem;
+  -webkit-border-radius: 3.333333rem;
+  color: #fff;
+  letter-spacing: 0.06777rem;
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+section .sender .d1 {
+  background-image: url(../image/slide01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section .sender .d1:hover {
+  background-size: 150%;
+  transition: 0.7s;
+}
+section .sender .d1:hover .d1-1 {
+  height: 100%;
+  transition: 0.7s;
+  background-color: rgba(33, 33, 33, 0.65);
+}
+section .sender .d1:hover a {
+  background: #18364a;
+}
+section .sender .d1 a {
+  background: linear-gradient(to top left, #00966e 15%, #009688 100%);
+}
+section .sender .d2 {
+  background: linear-gradient(to left top, #009688 15%, #009688 100%) rgba(39, 81, 33, 0.1);
+}
+section .sender .d2 a {
+  background-color: #18364a;
+}
+section .sender .d2:hover {
+  background-size: 110%;
+  transition: 0.7s;
+}
+section .sender .d2:hover .d2-2 {
+  height: 100%;
+  transition: 0.7s;
+  background-color: rgba(33, 33, 33, 0.55);
+}
+section .sender .d2:hover a {
+  background: linear-gradient(to top left, #00966e 15%, #009688 100%);
+  transition: 0.7s;
+}
+section .feature-skills {
+  height: 34.5333333333rem;
+  background-color: white;
+  margin-top: 5rem;
+}
+section .feature-skills h2 {
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 0;
+  color: #18364a;
+  font-size: 3rem;
+  line-height: 1;
+  padding-top: 0.3333333333rem;
+  padding-bottom: 0.6666666667rem;
+}
+section .feature-skills span {
+  font-size: 1.02rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: #18364a;
+}
+section .feature-skills .col-md-3 .content-cell {
+  display: block;
+  padding-top: 2rem;
+  padding-left: 0;
+  text-align: center;
+}
+section .feature-skills .col-md-3 .content-cell .title {
+  font-size: 1.333333rem;
+  color: #18364a;
+  font-weight: 700;
+  margin: 0;
+  text-transform: capitalize;
+}
+section .feature-skills .col-md-3 .content-cell .description {
+  margin-top: 0.6666667rem;
+  margin-bottom: 1rem;
+  font-size: 0.94rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: #666c72;
+}
+section .app-cont {
+  height: 100%;
+  background-color: #232838;
+  background-image: url(../image/now-available.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  padding-bottom: 50px;
+}
+section .app-cont .app-h3 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  font-size: 2.571em;
+  font-weight: 700;
+  color: #FFFFFF;
+  padding-top: 3.8666666667rem;
+  margin-bottom: 3.6666666667rem;
+}
+section .app-cont .app-p {
+  margin: 0;
+  font-weight: 400;
+  color: #E3E3E3;
+  margin-bottom: 4rem;
+  line-height: 2;
+}
+section .app-cont .app-logo {
+  margin-bottom: 3.6666666667rem;
+}
+section .app-cont .app-logo .google {
+  background-color: #fff;
+  width: 12rem;
+  height: 4.6666666667rem;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 4.6666666667rem;
+  display: inline-block;
+  margin: 0;
+}
+section .app-cont .app-logo .google img {
+  width: 62%;
+  vertical-align: middle;
+}
+section .app-cont .app-logo .apple {
+  background-color: #009688;
+  background-image: -webkit-linear-gradient(63deg, #009688 0%, #009688 53%, #009688 100%, #f2504d 100%);
+  width: 12rem;
+  height: 4.6666666667rem;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 4.6666666667rem;
+  display: inline-block;
+  margin: 0;
+}
+section .app-cont .app-logo .apple img {
+  width: 62%;
+  vertical-align: middle;
+}
+section .partner {
+  height: 100%;
+  background-color: white;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+section .footer {
+  height: 31.3333333333rem;
+  background: linear-gradient(to top left, #0d1420 50%, #232838 100%);
+}
+section .footer .mainfot {
+  padding-top: 5rem;
+  width: 78.4rem;
+  height: 22.5333333333rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .footer .mainfot .foterebi {
+  width: 26rem;
+  height: 22.5333333333rem;
+  float: left;
+}
+section .footer .mainfot .foterebi .icon-box {
+  border: solid 1px rgba(255, 255, 255, 0.1);
+  margin-top: 4.3333333333rem;
+  width: 18rem;
+  height: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .footer .mainfot .foterebi .icon-box .span-on-foot {
+  padding: 1rem 1.3333333333rem 1rem 1.3333333333rem;
+  display: inline-block;
+  margin: 0;
+  margin-top: 0.3333333333rem;
+  color: #fff;
+}
+section .footer .mainfot .foterebi .icon-box .icon:first-child::before {
+  content: "";
+  position: absolute;
+  height: 2.0666666667rem;
+  width: 2.0666666667rem;
+  background: url(../image/pin.png) no-repeat;
+  background-size: 100%;
+  margin-left: 0.8666666667rem;
+  margin-top: 0.8rem;
+}
+section .footer .mainfot .foterebi .icon-box .icon2::before {
+  content: "";
+  position: absolute;
+  height: 2.0666666667rem;
+  width: 2.0666666667rem;
+  background: url(../image/newspaper.png) no-repeat;
+  background-size: 100%;
+  margin-left: 0.8666666667rem;
+  margin-top: 0.8rem;
+}
+section .footer .mainfot .foterebi .icon-box .icon3::before {
+  content: "";
+  position: absolute;
+  height: 2.0666666667rem;
+  width: 2.0666666667rem;
+  background: url(../image/link-symbol.png) no-repeat;
+  background-size: 100%;
+  margin-left: 0.8666666667rem;
+  margin-top: 0.8rem;
+}
+section .footer .mainfot .foterebi .textus {
+  font-size: 0.9333333333rem;
+  width: 18rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+section .footer .mainfot .foterebi .textus .first {
+  padding: 0.9333333333rem 0 0.6666666667rem 0;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+  color: #7d7d7d;
+}
+section .footer .mainfot .foterebi .textus .first span {
+  color: #fff;
+}
+section .footer .mainfot .foterebi .textus form {
+  margin-top: 1.3333333333rem;
+}
+section .footer .mainfot .foterebi .textus form .input1 {
+  height: 2.1333333333rem;
+  width: 10rem;
+  padding: 0 0.6666666667rem 0 0.6666666667rem;
+  border: solid 1px #363636;
+  color: #fff;
+  font-size: 1rem;
+  background: none !important;
+  position: relative;
+  top: 0rem;
+  outline: none;
+}
+section .footer .mainfot .foterebi .textus form .input2 {
+  border-radius: 0;
+  border: none;
+  color: #fff;
+  width: 5.5rem;
+  position: relative !important;
+  top: 0;
+  left: 0.5rem;
+  height: 2.2466666667rem;
+  transition: 0.3s;
+  font-size: 1rem;
+  background-color: #029d75;
+}
+section .footer .mainfot .foterebi .textus .last-a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 0.9333333333rem;
+}
+section .footer .mainfot .foterebi .textus .last-a::before {
+  content: "";
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  background: url(../image/next.png) no-repeat;
+  background-size: 100%;
+  margin-left: -1rem;
+  margin-top: 0.4rem;
+}
+section .footer .mobilefot {
+  display: none;
+}
+section .footer .mobilefot .news {
+  background: linear-gradient(to left top, #009688 15%, #009688 100%) rgba(39, 81, 33, 0.1);
+  padding: 8rem 0;
+}
+section .footer .mobilefot .news p {
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+}
+section .footer .mobilefot .news .input-box {
+  display: flex;
+  border-radius: 10rem;
+  overflow: hidden;
+  width: 60%;
+  margin: 0 auto;
+}
+section .footer .mobilefot .news .input-box input {
+  flex-grow: 1;
+  padding-left: 2rem;
+  font-family: inherit;
+}
+section .footer .mobilefot .news .input-box button {
+  font-size: 1.8rem;
+  background-color: #18364a;
+  color: #fff;
+  border: 1px solid #18364a;
+  padding: 1.2rem 3.4rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+section .footer .mobilefot .info {
+  background: linear-gradient(to top left, #0d1420 50%, #232838 100%);
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+}
+section .footer .mobilefot .info .img-box {
+  width: 230px;
+  margin: 0 auto;
+  position: relative;
+}
+section .footer .mobilefot .info .img-box a {
+  margin-left: 2rem;
+  margin-right: 0.8rem;
+}
+section .footer .mobilefot .info .img-box a:first-child::before {
+  content: "";
+  background-color: #009688;
+  position: relative;
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background: url(../image/messenger.png) no-repeat;
+  background-size: 100%;
+  margin-left: -0.5rem;
+  margin-top: 0rem;
+}
+section .footer .mobilefot .info .img-box a:nth-child(2)::before {
+  content: "";
+  background-color: #009688;
+  position: relative;
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background: url(../image/linkedin.png) no-repeat;
+  background-size: 100%;
+  margin-left: -0.5rem;
+  margin-top: 0rem;
+}
+section .footer .mobilefot .info .img-box a:nth-child(3)::before {
+  content: "";
+  background-color: #009688;
+  position: relative;
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background: url(../image/twitter-logo.png) no-repeat;
+  background-size: 100%;
+  margin-left: -0.5rem;
+  margin-top: 0rem;
+}
+section .footer .mobilefot .info .img-box a:nth-child(4)::before {
+  content: "";
+  background-color: #009688;
+  position: relative;
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background: url(../image/google-plus.png) no-repeat;
+  background-size: 100%;
+  margin-left: -0.5rem;
+  margin-top: 0rem;
+}
+section .footer .mobilefot .info .info-box div:first-child::before {
+  content: "";
+  background-color: #009688;
+  position: absolute;
+  display: block;
+  height: 4.5rem;
+  width: 4.5rem;
+  background: url(../image/phone-call.png) no-repeat;
+  background-size: 100%;
+  margin-left: -6rem;
+  margin-top: 0rem;
+}
+section .footer .mobilefot .info .info-box div:nth-child(3)::before {
+  content: "";
+  background-color: #009688;
+  position: absolute;
+  display: block;
+  height: 4.5rem;
+  width: 4.5rem;
+  background: url(../image/envelope.png) no-repeat;
+  background-size: 100%;
+  margin-left: -6rem;
+  margin-top: 0rem;
+}
+section .footer .mobilefot .info .info-box div:nth-child(5)::before {
+  content: "";
+  background-color: #009688;
+  position: absolute;
+  display: block;
+  height: 4.5rem;
+  width: 4.5rem;
+  background: url(../image/placeholder.png) no-repeat;
+  background-size: 100%;
+  margin-left: -6rem;
+  margin-top: 0rem;
+}
+section .footer .mobilefot .info .text-group {
+  width: 219px;
+  margin: 0 auto;
+  position: relative;
+  left: 4rem;
+}
+section .footer .mobilefot .info .text-group .contact-heading {
+  font-size: 2.4rem;
+  color: white;
+}
+section .footer .mobilefot .info .text-group .contact-paragraph {
+  font-size: 1.4rem;
+  color: #bab4ce;
+}
+
+@media screen and (max-width: 900px) {
+  section .vector{
+      width: 100px;
+  }
+  .two-side .right-side::before {
+    left: 70%;
+  }
+  .two-side .right-side .main-box .white-box {
+    right: 40%;
+  }
+}
+@media screen and (max-width: 870px) {
+  .two-side .right-side1 .main-box .white-box {
+    right: 25%;
+  }
+}
+@media screen and (max-width: 830px) {
+  section .pre-about .two-trap {
+    position: absolute;
+    top: -2.5rem;
+    right: -10rem;
+  }
+}
+@media screen and (max-width: 790px) {
+  .two-side .left-side1 .main-page .main-text {
+    font-size: 4rem;
+  }
+  .two-side .left-side1 .main-page .main-p {
+    font-size: 1.25rem;
+  }
+  .two-side .right-side1 .main-box .white-box {
+    right: 20%;
+  }
+
+  section .pre-about .two-trap {
+    position: absolute;
+    right: -10rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .body {
+    background-image: url(../image/cas-bg-truck.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 84.5rem;
+  }
+
+  #two-main {
+    overflow: hidden !important;
+  }
+
+  .two-side .left-side1 .main-page {
+    left: 7rem;
+  }
+
+  .baq-cont {
+    background: linear-gradient(to top left, #00966e 15%, #08cf96 100%);
+    opacity: 0.9;
+    height: 100%;
+    background-color: inherit;
+  }
+
+  .reg-cont {
+    background: none;
+  }
+
+  header {
+    height: auto;
+    overflow: visible;
+  }
+
+  .two-side {
+    height: auto;
+    overflow: visible;
+  }
+  .two-side .right-side {
+    display: none;
+  }
+  .two-side .right-side2 {
+    display: none;
+  }
+  .two-side .left-side {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+  }
+  .two-side .left-side {
+    z-index: 1;
+  }
+  .two-side .left-side .registration {
+    top: 0;
+    left: 0;
+    width: 320px;
+    position: relative;
+    margin: 0 auto;
+  }
+  .two-side .left-side .registration .reg-title {
+    display: none;
+  }
+  .two-side .left-side .registration h2 {
+    display: block;
+    font-size: 3rem;
+    width: 290px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+  }
+  .two-side .left-side .registration form {
+    margin-top: -4rem;
+    width: 37.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 2;
+  }
+  .two-side .left-side .registration form input {
+    width: 155px;
+    height: 4rem;
+    font-size: 1.5rem;
+  }
+  .two-side .left-side .registration form select {
+    width: 156px;
+    height: 4rem;
+    font-size: 1.5rem;
+  }
+  .two-side .left-side .registration form .addres {
+    width: 323px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .two-side .left-side .registration .login-text {
+    display: block !important;
+    width: 30rem;
+    margin: 0 auto;
+    font-size: 2.3rem;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    position: relative;
+    top: 55rem;
+  }
+  .two-side .left-side .registration .signup-lasts {
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 1.1rem;
+  }
+  .two-side .left-side .registration .signup-lasts p {
+    font-size: 1.9rem;
+    padding-bottom: 2rem;
+    letter-spacing: 1px;
+    margin-left: -7px;
+    color: white;
+  }
+  .two-side .left-side .registration .signup-lasts #first {
+    margin-left: -1.7rem !important;
+  }
+  .two-side .left-side .registration .signup-lasts .radio {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    padding-right: 2.3rem;
+  }
+  .two-side .left-side .registration .signup-lasts .radio input {
+    width: 4rem;
+    height: 2rem;
+    vertical-align: middle;
+  }
+  .two-side .left-side .registration .signup-lasts .policy {
+    position: absolute;
+    font-size: 1.6rem;
+    letter-spacing: 4px;
+    color: white;
+    margin-left: -0.7rem !important;
+  }
+  .two-side .left-side .registration .signup-lasts .policy input {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+  .two-side .left-side .registration .signup-lasts div {
+    top: 0 !important;
+  }
+  .two-side .left-side .registration .signup-lasts .if-login {
+    display: none;
+    width: 340px;
+    margin: 0 auto;
+    font-size: 2.3rem;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    position: relative;
+    top: 12.9rem;
+  }
+  .two-side .left-side .registration .signup-lasts .if-login::before {
+    display: none;
+  }
+  .two-side .left-side .registration .signup-lasts .button {
+    left: -0.5rem;
+    padding: 1.2rem 14rem 1.4rem 14.4rem;
+    border: 2px solid #18364a;
+    color: white;
+    font-size: 2rem;
+    background-color: #18364a;
+    border-radius: 15px;
+    position: relative;
+    top: 4.8rem;
+  }
+  .two-side .left-side .registration .signup-lasts .button:hover {
+    transition: 0.5s;
+    background-color: white;
+    color: #18364a;
+  }
+  .two-side .left-side .login {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 320px;
+    margin: 0 auto;
+  }
+  .two-side .left-side .login h2 {
+    display: block;
+    font-size: 3rem;
+    width: 290px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 2rem;
+    margin-top: 15rem;
+  }
+  .two-side .left-side .login .main-text {
+    text-align: center;
+    position: relative;
+    font-size: 2.9rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-weight: 700;
+    margin-left: 0;
+    color: #18364a;
+  }
+  .two-side .left-side .login .main-text::before {
+    display: none;
+  }
+  .two-side .left-side .login form {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .two-side .left-side .login form input {
+    width: 100%;
+    height: 5rem;
+    font-size: 1.5rem;
+  }
+  .two-side .left-side .login .forgot {
+    left: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+  }
+  .two-side .left-side .login .log-button {
+    left: 0;
+    padding: 1rem 131.5px;
+    border: 2px solid #18364a;
+    color: white;
+    background-color: #18364a;
+    border-radius: 15px;
+    z-index: 2;
+    font-size: 2rem;
+  }
+  .two-side .left-side .login .log-button:hover {
+    transition: 0.5s;
+    background-color: #fff;
+  }
+  .two-side .left-side .reg-congratulation {
+    position: relative;
+    left: 0;
+    top: 20rem;
+  }
+  .two-side .left-side .reg-congratulation .text-form {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    font-size: 1.7rem;
+    background-color: white;
+    padding: 1.6rem;
+    border-radius: 16px;
+    color: #18364a;
+    box-shadow: rgba(33, 33, 33, 0.3) 0px 4px 18px;
+  }
+  .two-side .left-side .reg-confrimation {
+    top: 17rem;
+    left: 0;
+    position: relative;
+  }
+  .two-side .left-side .reg-confrimation .text-form {
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .two-side .left-side .reg-confrimation .text-form h1 {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+  }
+  .two-side .left-side .reg-confrimation .text-form h5 {
+    display: block;
+    text-align: center;
+    font-size: 2.1rem;
+    letter-spacing: 0.4rem;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 2rem;
+  }
+  .two-side .left-side .reg-confrimation .text-form p {
+    text-align: center;
+    font-size: 2.2rem;
+    letter-spacing: 0.3rem;
+    line-height: 3.7rem;
+    font-weight: 600;
+    padding-top: 1.5rem;
+  }
+  .two-side .left-side .reg-confrimation .text-form p span {
+    color: #18364a;
+  }
+  .two-side .left-side .reg-confrimation .text-form input {
+    outline: none;
+    text-indent: 1.5rem;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 4.5rem;
+    background: #fff;
+    border: 1.5px solid #009688;
+    border-radius: 15px;
+    color: #009688;
+  }
+  .two-side .left-side .reg-confrimation .text-form input[type=text] {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+  }
+  .two-side .left-side .reg-confrimation .text-form .sub {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+    padding: 0.8rem 5.5rem 0.9rem 5.5rem;
+    background-color: #18364a;
+    border: 2px solid #18364a;
+    border-radius: 12px;
+    opacity: 1;
+    margin-left: 4rem;
+  }
+  .two-side .left-side .reg-confrimation .text-form .sub:hover {
+    background-color: white;
+    color: #18364a;
+    transition: 0.5s;
+  }
+  .two-side .left-side .reg-confrimation .text-form .resend {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: white;
+    margin-left: 1.6rem;
+    border-radius: 8px;
+  }
+  .two-side .left-side .reg-confrimation .text-form .resend:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+  }
+  .two-side .left-side .quote {
+    top: 12rem;
+    left: 0;
+    position: relative;
+  }
+  .two-side .left-side .quote .text-form {
+    width: 31rem;
+    margin: 0 auto;
+    color: #fff;
+  }
+  .two-side .left-side .quote .text-form a {
+    margin-top: 0rem !important;
+  }
+  .two-side .left-side .quote .text-form h1 {
+    font-size: 3rem;
+    color: #18364a;
+  }
+  .two-side .left-side .quote .text-form a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: white;
+    float: left;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    width: 100%;
+    background-color: #18364a;
+    border: 2px solid #18364a;
+    border-radius: 15px;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .two-side .left-side .quote .text-form a:hover {
+    transition: 0.5s;
+    background-color: white;
+    color: #fff;
+  }
+  .two-side .left-side .quote .text-form div {
+    display: inline-block;
+    float: left;
+  }
+  .two-side .left-side .quote .text-form .inpu span {
+    color: #18364a;
+    position: relative;
+    top: -0.7rem;
+    left: 0.3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .two-side .left-side .quote .text-form .inpu input {
+    outline: none;
+    text-indent: 1.5rem;
+    font-size: 1.7rem;
+    width: 20.6rem;
+    height: 4.2rem;
+    background: #fff;
+    border: 2px solid #18364a;
+    border-radius: 15px;
+    color: #009688;
+  }
+  .two-side .left-side .quote .text-form .inpu input[type=text] {
+    position: relative;
+    display: block;
+    margin-top: -0.4rem;
+  }
+  .two-side .left-side .quote .text-form .check {
+    margin-left: 6rem;
+    /* Hide the browser's default checkbox */
+    /* Create a custom checkbox */
+    /* On mouse-over, add a grey background color */
+    /* When the checkbox is checked, add a blue background */
+    /* Create the checkmark/indicator (hidden when not checked) */
+    /* Show the checkmark when checked */
+    /* Style the checkmark/indicator */
+  }
+  .two-side .left-side .quote .text-form .check .container {
+    display: block;
+    position: relative;
+    margin-bottom: 6.6rem;
+    margin-top: 0.2rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .two-side .left-side .quote .text-form .check .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .two-side .left-side .quote .text-form .check .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: 2px solid #18364a;
+  }
+  .two-side .left-side .quote .text-form .check .container:hover input ~ .checkmark {
+    background-color: #ccc;
+    border: 2px solid black;
+  }
+  .two-side .left-side .quote .text-form .check .container input:checked ~ .checkmark {
+    background-color: #ffff;
+    border: 2px solid #18364a;
+  }
+  .two-side .left-side .quote .text-form .check .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .two-side .left-side .quote .text-form .check .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .two-side .left-side .quote .text-form .check .container .checkmark:after {
+    left: 1.6rem;
+    top: -0.7rem;
+    width: 2rem;
+    height: 3.5rem;
+    border: solid #18364a;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .two-side .left-side .pass-cong {
+    top: 13rem;
+    left: 0;
+    position: relative;
+  }
+  .two-side .left-side .pass-cong .text-form {
+    color: #fff;
+    width: 340px;
+    margin: 0 auto;
+  }
+  .two-side .left-side .pass-cong .text-form h1 {
+    font-size: 3.2rem;
+    letter-spacing: 0.4rem;
+  }
+  .two-side .left-side .pass-cong .text-form p {
+    font-size: 1.9rem;
+    letter-spacing: 0.2rem;
+    padding-top: 1rem;
+  }
+  .two-side .left-side .pass-cong .text-form dir {
+    width: 12rem;
+    margin-top: -12rem;
+  }
+  .two-side .left-side .pass-cong .text-form dir a {
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+    display: block;
+    padding-top: 0.5rem;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  .two-side .left-side .pass-cong .text-form dir a:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+  }
+  .two-side .left-side .pass-cong .text-form dir::before {
+    content: "";
+    border-right: 0.1rem solid #fff;
+    display: block;
+    width: 0.1rem;
+    height: 17rem;
+    position: relative;
+    top: 17rem;
+    left: 0;
+  }
+  .two-side .left-side .new-pass {
+    top: 13rem;
+    left: 0;
+    position: relative;
+  }
+  .two-side .left-side .new-pass .text-form {
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .two-side .left-side .new-pass .text-form p {
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+    text-align: center;
+  }
+  .two-side .left-side .new-pass .text-form p span {
+    color: #18364a !important;
+    font-weight: 700 !important;
+  }
+  .two-side .left-side .new-pass .text-form h5 {
+    display: none;
+  }
+  .two-side .left-side .new-pass .text-form h6 {
+    display: block;
+    width: 37rem;
+    font-size: 2rem;
+    letter-spacing: 0.4rem;
+    font-weight: 300;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    line-height: 3rem;
+  }
+  .two-side .left-side .new-pass .text-form input {
+    outline: none !important;
+    text-align: center !important;
+    width: 100% !important;
+    height: 4.7rem !important;
+    background: #fff !important;
+    border: 1.5px solid #009688 !important;
+    border-radius: 15px !important;
+    color: #009688 !important;
+  }
+  .two-side .left-side .new-pass .text-form ::placeholder {
+    color: #009688;
+    opacity: 1;
+    font-size: 1.5rem;
+    /* Firefox */
+  }
+  .two-side .left-side .new-pass .text-form .sub {
+    padding: 0.8rem 6.5rem 0.9rem 6.5rem !important;
+    background-color: #18364a !important;
+    border: 2px solid #18364a !important;
+    border-radius: 12px !important;
+    font-weight: 600;
+    font-size: 1.6rem !important;
+    position: relative;
+    top: 1rem;
+  }
+  .two-side .left-side .new-pass .text-form .sub:hover {
+    background-color: #fff !important;
+    border: 1.5px solid #18364a !important;
+    color: #18364a !important;
+  }
+  .two-side .left-side .forgot {
+    top: 13rem;
+    left: 0;
+    position: relative;
+  }
+  .two-side .left-side .forgot .text-form {
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .two-side .left-side .forgot .text-form h1 {
+    text-align: center;
+    font-size: 2.9rem;
+    left: 0;
+  }
+  .two-side .left-side .forgot .text-form h1::before {
+    display: none;
+  }
+  .two-side .left-side .forgot .text-form h5 {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 4rem;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 2rem;
+  }
+  .two-side .left-side .forgot .text-form h5 span {
+    color: #18364a;
+    font-weight: 900;
+    font-size: 2.3rem;
+  }
+  .two-side .left-side .forgot .text-form .sub {
+    margin-left: 0rem !important;
+    border-radius: 16px !important;
+    padding: 0.8rem 4.5rem 0.9rem 4.5rem !important;
+  }
+  .two-side .left-side .forgot .text-form p {
+    text-align: center;
+    font-size: 2.2rem;
+    letter-spacing: 0.3rem;
+    line-height: 3.7rem;
+    font-weight: 600;
+  }
+  .two-side .left-side .forgot .text-form p span {
+    color: #18364a;
+  }
+  .two-side .left-side .forgot .text-form input {
+    outline: none;
+    text-indent: 1.5rem;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 4.5rem;
+    background: #fff;
+    border: 1.5px solid #009688;
+    border-radius: 15px;
+    color: #009688;
+    margin-left: -0.5rem !important;
+  }
+  .two-side .left-side .forgot .text-form .sub {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+    padding: 0.8rem 5.5rem 0.9rem 5.5rem;
+    background-color: #18364a;
+    border: 2px solid #18364a;
+    border-radius: 12px;
+    opacity: 1;
+    margin-left: 4rem;
+  }
+  .two-side .left-side .forgot .text-form .sub:hover {
+    background-color: white;
+    color: #18364a;
+    transition: 0.5s;
+  }
+  .two-side .left-side .faq {
+    top: 13rem;
+    left: 0;
+    position: relative;
+  }
+  .two-side .left-side .faq .text-form {
+    width: 332px;
+    margin: 0 auto;
+  }
+  .two-side .left-side .faq .text-form h1 {
+    font-size: 8rem;
+    text-align: center;
+  }
+  .two-side .left-side .faq .text-form p {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 530;
+    padding-top: 1.5rem;
+  }
+  .two-side .left-side .faq .text-form div {
+    width: 331px;
+    font-size: 1.2rem;
+  }
+  .two-side .left-side .error {
+    top: 11rem;
+    left: 0;
+    position: relative;
+  }
+  .two-side .left-side .error .text-form {
+    color: #fff;
+    width: 340px;
+    margin: 0 auto;
+  }
+  .two-side .left-side .error .text-form h1 {
+    font-weight: 700;
+    font-size: 7rem;
+    letter-spacing: 0.4rem;
+  }
+  .two-side .left-side .error .text-form p {
+    font-size: 1.9rem;
+    letter-spacing: 0.2rem;
+    padding-top: 1rem;
+  }
+  .two-side .left-side .error .text-form dir {
+    width: 12rem;
+    margin-top: -12rem;
+  }
+  .two-side .left-side .error .text-form dir a {
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+    display: block;
+    padding-top: 0.5rem;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  .two-side .left-side .error .text-form dir a:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+  }
+  .two-side .left-side .error .text-form dir::before {
+    content: "";
+    border-right: 0.1rem solid #fff;
+    display: block;
+    width: 0.1rem;
+    height: 17rem;
+    position: relative;
+    top: 17rem;
+    left: 0;
+  }
+  .two-side .left-side .contact {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+    background: white;
+    opacity: 1;
+  }
+  .two-side .left-side .contact nav {
+    display: block;
+  }
+  .two-side .left-side .contact .iframe {
+    display: block;
+  }
+  .two-side .left-side .contact .main-text {
+    font-size: 2.8rem;
+    letter-spacing: 0.2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    margin-left: 3.5rem;
+  }
+  .two-side .left-side .contact .main-text::before {
+    content: "";
+    position: absolute;
+    height: 3.3rem;
+    width: 3rem;
+    margin-top: 0.5rem;
+    margin-left: -3.5rem;
+  }
+  .two-side .left-side .contact input {
+    display: block;
+    width: 320px;
+    height: 4rem;
+    font-size: 1.4rem;
+  }
+  .two-side .left-side .contact .last {
+    display: block;
+    width: 320px;
+    padding-bottom: 2;
+    padding-top: 1;
+    font-size: 1.4rem;
+  }
+  .two-side .left-side .contact input[type=text] {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+
+  .main-section {
+    display: block !important;
+  }
+
+  section .sender div p {
+    width: 260px;
+    margin: 0 auto;
+  }
+
+  section .footer .mainfot {
+    width: 75rem;
+  }
+  section .footer .foterebi {
+    width: 24.8rem !important;
+  }
+
+  section {
+    display: none;
+  }
+}
+@media screen and (max-width: 730px) {
+  section .about .about-main {
+    width: 75rem;
+  }
+
+  section .pre-about {
+    height: 90rem;
+    position: relative;
+  }
+  section .pre-about h1 {
+    text-align: center;
+    margin-left: 0;
+  }
+  section .pre-about .hidd {
+    bottom: 1rem;
+  }
+  section .pre-about .two-trap {
+    display: none;
+  }
+  section .pre-about .texx {
+    width: 100%;
+  }
+  section .pre-about .texx dir {
+    width: 431px;
+    margin: 0 auto;
+  }
+  section .pre-about .texx p:first-child {
+    width: 430px !important;
+    font-size: 1.4rem;
+    margin-left: 0 !important;
+  }
+  section .pre-about .texx p:not(:first-child) {
+    position: relative;
+    width: 390px !important;
+    font-size: 1.4rem;
+    margin-left: 10% !important;
+  }
+  section .pre-about .texx p:not(:first-child)::before {
+    left: -8rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  section .about {
+    overflow: hidden;
+  }
+  section .sender {
+    overflow: hidden;
+  }
+  section .app-cont {
+    overflow: hidden;
+  }
+  section .partner {
+    overflow: hidden;
+  }
+
+  .left-side1 .main-page {
+    top: 11rem !important;
+    float: left;
+    left: 0 !important;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  .left-side1 .main-page .main-text {
+    color: white;
+    font-size: 48px !important;
+    line-height: 68px !important;
+    font-weight: 700;
+    text-align: center;
+    font-family: "ProximaNova,Helvetica,Arial,Sans-Serif";
+  }
+  .left-side1 .main-page .main-p {
+    display: none;
+    margin-top: 0rem;
+    margin-left: 3.7rem;
+    color: white;
+    font-size: 2.2rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.5px;
+  }
+  .left-side1 .main-page .main-p::before {
+    content: "";
+    width: 2.6667rem;
+    height: 0.2rem;
+    background-color: #009688;
+    position: relative;
+    display: block;
+    top: 0.9666rem;
+    right: 3.733rem;
+  }
+
+  .right-side1 {
+    height: 100%;
+    overflow: visible;
+    width: 100% !important;
+    left: 0 !important;
+  }
+  .right-side1 .trapecia {
+    display: none !important;
+  }
+  .right-side1 .main-box {
+    height: 13.5rem !important;
+    top: auto !important;
+    width: 100% !important;
+    bottom: 0 !important;
+  }
+  .right-side1 .main-box .white-box {
+    height: 13.5rem;
+    right: 0 !important;
+    min-width: 31rem;
+    width: 100% !important;
+    background: linear-gradient(to left top, #009688 15%, #009688 100%) rgba(39, 81, 33, 0.1);
+  }
+  .right-side1 .main-box .white-box h3 {
+    font-size: 2.8rem;
+    color: white;
+    opacity: 1;
+  }
+  .right-side1 .main-box .white-box .box-p {
+    font-size: 1.3rem;
+    color: white;
+    opacity: 1;
+  }
+  .right-side1 .main-box .white-box input {
+    width: 35%;
+    min-width: 240px;
+    color: white;
+    border-color: transparent transparent #fff;
+    border-image: initial;
+    padding: 0.6667rem 0rem;
+    border-bottom: 0.1333rem solid #fff;
+  }
+  .right-side1 .main-box .white-box ::placeholder {
+    color: white;
+  }
+  .right-side1 .main-box .white-box .track {
+    display: none;
+  }
+  .right-side1 .main-box .white-box .glas {
+    display: none;
+    width: 14px;
+    margin-top: 0.5%;
+    margin-left: -4.5%;
+  }
+
+  section .about .read-mor {
+    bottom: 0 !important;
+  }
+
+  section .about-main {
+    width: 100% !important;
+  }
+  section .about-main .dir2 {
+    display: none;
+  }
+  section .about-main .dir1 {
+    float: none !important;
+    margin: 0 auto;
+    width: 100%;
+  }
+  section .about-main .dir1 .d1-p {
+    font-size: 1.8rem !important;
+    padding-top: 0 !important;
+    padding-bottom: 2.2rem !important;
+    margin: 0 auto !important;
+    width: 350px !important;
+  }
+  section .about-main .dir1 .d1-p span {
+    left: 0rem !important;
+  }
+  section .about-main .dir1 .d1-p .dis {
+    display: none !important;
+  }
+  section .about-main .dir1 .d1-p::before {
+    display: none !important;
+  }
+  section .about-main .dir1 .ppp {
+    margin-left: 8rem !important;
+    font-size: 1.2rem !important;
+  }
+  section .about-main .dir1 .p-befo {
+    margin-left: 8rem !important;
+    font-size: 1.6rem !important;
+  }
+  section .about-main .dir1 .p-befo::before {
+    position: absolute !important;
+    width: 5.3rem !important;
+    height: 5.3rem !important;
+    margin-left: -7rem !important;
+  }
+  section .about-main .dir1 .p-befo2 {
+    margin-left: 8rem !important;
+    font-size: 1.6rem !important;
+  }
+  section .about-main .dir1 .p-befo2::before {
+    position: absolute !important;
+    width: 5.3rem !important;
+    height: 5.3rem !important;
+    margin-left: -7rem !important;
+  }
+  section .about-main .dir1 .p-befo3 {
+    margin-left: 8rem !important;
+    font-size: 1.6rem !important;
+  }
+  section .about-main .dir1 .p-befo3::before {
+    position: absolute !important;
+    width: 5.3rem !important;
+    height: 5.3rem !important;
+    margin-left: -7rem !important;
+  }
+  section .about-main .dir1 .dir1-cont {
+    width: 350px !important;
+    margin: 0 auto !important;
+  }
+  section .partner img {
+    width: 100px;
+  }
+  section .footer {
+    height: 0;
+  }
+  section .footer .mainfot {
+    display: none;
+  }
+  section .footer .mobilefot {
+    display: block;
+  }
+  section .swiper-container {
+    width: 375px;
+  }
+  section .swiper-slide {
+    width: 183px !important;
+  }
+}
+@media screen and (max-width: 615px) {
+  section .app-cont img {
+    width: 70%;
+  }
+
+  section .sender .d1-1 {
+    height: 100%;
+    transition: 0.7s;
+    background-color: rgba(33, 33, 33, 0.65);
+  }
+  section .sender div {
+    width: 100%;
+    display: block;
+    float: none;
+  }
+  section .sender div h1 {
+    font-size: 3rem;
+    padding-top: 2.5rem;
+  }
+  section .sender div p {
+    font-size: 1.5rem;
+    width: 360px;
+    margin: 0 auto;
+    line-height: 3rem;
+  }
+  section .sender div a {
+    line-height: 0;
+    height: 0rem;
+    padding: 2.3rem 4.33333rem !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .left-side1 .main-page .main-text {
+    font-size: 43px !important;
+  }
+
+  section .pre-about {
+    height: 91rem;
+    position: relative;
+  }
+  section .pre-about h1 {
+    text-align: center;
+    margin-left: 0;
+  }
+  section .pre-about .hidd {
+    bottom: 0rem;
+  }
+  section .pre-about .two-trap {
+    display: none;
+  }
+  section .pre-about .texx {
+    width: 100%;
+  }
+  section .pre-about .texx dir {
+    width: 350px;
+    margin: 0 auto;
+  }
+  section .pre-about .texx p:first-child {
+    width: 350px !important;
+    font-size: 1.285rem;
+    margin-left: 0 !important;
+  }
+  section .pre-about .texx p:not(:first-child) {
+    position: relative;
+    width: 335px !important;
+    font-size: 1.285rem;
+    margin-left: 10% !important;
+  }
+  section .pre-about .texx p:not(:first-child)::before {
+    left: -8rem;
+  }
+
+  section .app-cont {
+    overflow: hidden;
+  }
+
+  section .partner img {
+    width: 70px;
+  }
+
+  section .footer .mobilefot .news .input-box {
+    flex-wrap: wrap;
+    border-radius: 0.1px;
+    margin: 0 auto;
+  }
+
+  section .footer .mobilefot .news .input-box input {
+    display: block;
+    border-radius: 10rem;
+    margin-bottom: 2rem;
+    border: none;
+    padding: 1rem 2rem;
+    width: 100%;
+    outline: none;
+  }
+
+  section .footer .mobilefot .news .input-box button {
+    display: block;
+    border-radius: 10rem;
+    margin: 0 auto;
+    padding: 1.6rem 4rem;
+  }
+
+  section .footer .mobilefot .news p {
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  section .app-cont img {
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=all.css.map */

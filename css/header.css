@@ -1,0 +1,354 @@
+a{
+    text-decoration: none;
+}
+header .topnav {
+  background-color: white;
+  box-shadow: rgba(33, 33, 33, 0.3) 0px 4px 18px;
+  height: 7rem;
+  position: relative;
+  z-index: 2;
+}
+header .topnav .logo {
+  position: absolute;
+  top: 1.4rem;
+  left: 11.5rem;
+}
+header .topnav .navbar {
+  width: 39.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+header .topnav .show {
+  display: block;
+}
+header .topnav .hide {
+  display: none;
+}
+header .topnav a {
+  display: block;
+  color: black;
+  text-align: center;
+  font-size: 1.1rem;
+}
+header .topnav .icon {
+  display: none;
+  margin: 0 7.5rem 0 0;
+  font-size: 2.5rem;
+  margin-top: 2.4rem;
+  padding: 0.57rem 1.2rem 0.57rem 1.2rem;
+  border-radius: 4px;
+  color: black;
+  background: #18364a;
+}
+header .topnav .dropdown1 {
+  position: absolute;
+  right: 2.5rem;
+  top: 2.1rem;
+  font-size: 2.5rem;
+  border-radius: 10px;
+  color: black;
+}
+header .topnav .dropdown1 .dropbtn {
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  color: black;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+header .topnav .dropdown1 .dropbtn::before {
+  content: "";
+  position: relative;
+  display: block;
+  height: 2rem;
+  width: 2rem;
+  background: url(../image/language11.png) no-repeat;
+  background-size: 100%;
+}
+header .topnav .dropdown1 #main::before {
+  content: "";
+  position: relative;
+  display: block;
+  height: 2rem;
+  width: 2rem;
+  background: url(../image/language.png) no-repeat;
+  background-size: 100%;
+}
+header .topnav .dropdown1 .dropdown-content1 {
+  display: none;
+  position: absolute;
+  margin-left: -1.4rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+header .topnav .dropdown1 .dropdown-content1 a {
+  float: none;
+  color: black;
+  padding: 0.8rem 0;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+  display: block;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+header .topnav .dropdown1 .dropdown-content1 a:first-child::before {
+  content: "";
+  position: relative;
+  display: block;
+  height: 2rem;
+  width: 2rem;
+  background: url(../image/language2.png) no-repeat;
+  background-size: 100%;
+}
+header .topnav .dropdown1 .dropdown-content1 a:last-child::before {
+  content: "";
+  position: relative;
+  display: block;
+  height: 2rem;
+  width: 2rem;
+  background: url(../image/language3.png) no-repeat;
+  background-size: 100%;
+}
+header .topnav .dropdown1 .dropdown-content1 a:hover {
+  background-color: #08cf96;
+}
+header .topnav .dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+header .topnav .dropdown {
+  float: left;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+  padding-top: 3rem;
+}
+header .topnav .dropdown .dropbtn {
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  color: black;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+header .topnav .dropdown #main-bar {
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+header .topnav .dropdown-content {
+  display: none;
+  position: absolute;
+  margin-left: -1.7rem;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+header .topnav .dropdown-content a {
+  float: none;
+  color: black;
+  padding: 0.8rem 0;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+  display: block;
+  color: black;
+  margin-left: 0;
+  text-align: center;
+}
+header .topnav a:hover, header .dropdown:hover .dropbtn {
+  color: black;
+}
+header .dropdown-content a:hover {
+  background: linear-gradient(to top left, #00966e 15%, #08cf96 100%);
+  color: black;
+}
+header .dropdown:hover .dropdown-content {
+  display: block;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+header .language1 {
+  width: 2.5%;
+  height: 14%;
+  float: left;
+  position: relative;
+  top: 2.4rem;
+  left: 27%;
+}
+
+
+@media screen and (max-width: 900px) {
+  header .topnav {
+    height: 8rem;
+  }
+  header .topnav .navbar {
+    display: none;
+    position: relative;
+    right: 7.5rem;
+    top: 5.7rem;
+  }
+
+  header .topnav .dropdown1 .dropdown-content1 {
+    margin-left: -0.7rem;
+  }
+  header .topnav .dropdown1 .dropbtn::before {
+    content: "";
+    height: 3.3rem;
+    width: 3.3rem;
+  }
+  header .topnav .dropdown1 #main::before {
+    content: "";
+    height: 3.3rem;
+    width: 3.3rem;
+  }
+  header .topnav .navbar2 {
+    display: block;
+    background: #18364a;
+    position: absolute;
+    right: 7.5rem;
+    top: 5.7rem;
+    width: 30rem;
+  }
+  header .topnav .navbar3 {
+    display: block;
+    background: #18364a;
+    position: relative;
+    right: 7.5rem;
+    top: 5.7rem;
+  }
+  header .topnav .logo {
+    width: 16%;
+  }
+  header .topnav .icon {
+    margin-top: 2.5rem;
+    color: white;
+  }
+  header .topnav .language1 {
+    top: 3.1rem;
+  }
+  header .topnav .dropdown .dropbtn {
+    color: white;
+  }
+  header .topnav .dropdown .dropdown-content a {
+    color: black;
+  }
+  header .topnav .dropdown1 {
+    position: absolute;
+    right: 2.5rem;
+    font-size: 2.5rem;
+    border-radius: 10px;
+    color: black;
+    top: 2.6rem;
+  }
+  header .topnav .dropdown1 .dropbtn {
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  header .topnav .dropdown1 .dropdown-content1 {
+    margin-left: -0.9rem;
+  }
+  header .topnav .dropdown1 .dropdown-content1 a {
+    float: none;
+    color: black;
+    padding: 0.8rem 0;
+    font-size: 0.9rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+  header .topnav .dropdown1:hover .dropdown-content1 {
+    display: block;
+  }
+
+  .dropdown .dropbtn {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav .language1 {
+    position: absolute;
+    left: 95%;
+    top: 2.7rem;
+    width: 3.4%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .dropdown:last-child {
+    padding-bottom: 20px;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive .dropdown {
+    float: none;
+  }
+
+  .topnav.responsive .dropdown-content {
+    position: relative;
+    margin-left: 0;
+  }
+
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  #main-header .topnav .logo {
+    left: 7rem !important;
+    top: 1.5rem;
+    width: 140px;
+  } 
+  header .topnav .logo {
+    left: 3rem;
+    top: 1.5rem;
+    width: 140px;
+  } 
+}
+@media screen and (max-width: 700px) {
+  #main-header .topnav .logo {
+    left: 3rem !important;
+    top: 1.7rem;
+    width: 140px;
+  }
+}

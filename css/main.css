@@ -1,0 +1,1218 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,400);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contt {
+  background-image: url(../image/scania-r500-topline-truck.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+}
+
+.two-side {
+  height: 53.5rem;
+  position: relative;
+}
+.two-side .left-side {
+  top: 0;
+  float: left;
+  left: 12%;
+  width: 38rem;
+  position: relative;
+}
+.two-side .left-side .main-text {
+  color: white;
+  line-height: 7.2rem;
+  text-transform: uppercase;
+  font-size: 4.4rem;
+  letter-spacing: 0.3666666667rem;
+  padding-top: 13rem;
+}
+.two-side .left-side .main-p {
+  letter-spacing: 0.25rem;
+  margin-top: 1rem;
+  margin-left: 3.75rem;
+  font-size: 1.533rem;
+  color: white;
+  font-weight: 300;
+}
+.two-side .left-side .main-p::before {
+  content: "";
+  width: 2.6667rem;
+  height: 0.1rem;
+  background-color: #009688;
+  position: relative;
+  display: block;
+  top: 0.9666rem;
+  right: 3.733rem;
+}
+.two-side .right-side {
+  height: 53.5rem;
+  position: relative;
+  z-index: 1 !important;
+  overflow: hidden;
+}
+.two-side .right-side .trapecia {
+  height: 100%;
+  background: linear-gradient(to left top, #009688 15%, #009688 100%) rgba(39, 81, 33, 0.1);
+  position: absolute;
+  top: 0px;
+  left: 60%;
+  width: 100%;
+  display: block;
+  transform: skewX(-20deg);
+}
+.two-side .right-side .main-box {
+  position: absolute;
+  z-index: 50;
+  right: 0px;
+  height: 23.5rem;
+  top: 30%;
+  background-color: rgba(33, 33, 33, 0.2);
+  padding: 0px;
+  vertical-align: top;
+  transition: 0.5;
+}
+.two-side .right-side .white-box {
+  position: relative;
+  height: 23.5rem;
+  width: 31rem;
+  background-color: white;
+  box-shadow: rgba(33, 33, 33, 0.3) 0px 4px 18px;
+  background-image: url(../image/map-small.png);
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  right: 15.5rem;
+}
+.two-side .right-side .white-box h3 {
+  font-size: 2.01rem;
+  color: #212121;
+  opacity: 0.75;
+  text-align: center;
+  text-transform: uppercase;
+}
+.two-side .right-side .white-box .box-p {
+  font-size: 0.95rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #212121;
+  opacity: 0.75;
+  margin-top: 0.8rem;
+}
+.two-side .right-side .white-box input {
+  background-color: transparent;
+  color: #757575;
+  outline: none;
+  position: relative;
+  width: 65%;
+  font-size: 1.04rem;
+  text-transform: uppercase;
+  border-width: 0px 0px 0.1333rem;
+  border-style: solid;
+  border-color: transparent transparent #757575;
+  border-image: initial;
+  padding: 0.6667rem 0rem;
+  border-bottom: 0.1333rem solid #757575;
+}
+.two-side .right-side .white-box .track {
+  margin-top: 2.5rem;
+}
+.two-side .right-side .white-box .glas {
+  position: absolute;
+  margin-left: -5%;
+  margin-top: 2%;
+}
+
+section .about {
+  height: 48.2rem;
+  background-color: white;
+  position: relative;
+}
+section .about .text {
+  padding-top: 5.3333333333rem;
+}
+section .about .text h2 {
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 0;
+  color: #18364a;
+  font-size: 3rem;
+  line-height: 1;
+  padding-top: 0.3333333333rem;
+  padding-bottom: 0.6666666667rem;
+}
+section .about .text .main-span {
+  font-size: 1.066rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: #18364a;
+}
+section .about .about-main {
+  width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.6666666667rem;
+}
+section .about .about-main dir {
+  float: left;
+}
+section .about .about-main .dir1 {
+  width: 40rem;
+  height: 30rem;
+}
+section .about .about-main .dir1 .d1-p {
+  padding-top: 2.8666666667rem;
+  padding-bottom: 3.9rem;
+}
+section .about .about-main .dir1 .d1-p::before {
+  content: "";
+  border-bottom: 0.1rem solid #18364a;
+  width: 4rem;
+  background-color: #009688;
+  position: relative;
+  display: block;
+  left: -13.5rem;
+  top: 4.3rem;
+}
+section .about .about-main .dir1 .p-befo {
+  margin-left: 9rem;
+  padding-bottom: 1rem;
+  color: #18364a;
+  font-size: 1.1333333333rem;
+}
+section .about .about-main .dir1 .p-befo::before {
+  content: "";
+  background-color: #009688;
+  position: absolute;
+  display: block;
+  height: 3.6rem;
+  width: 3.6rem;
+  background: url(../image/Untitled-1.png) no-repeat;
+  background-size: 100%;
+  margin-left: -5rem;
+  margin-top: 0rem;
+}
+section .about .about-main .dir1 .p-befo2 {
+  margin-left: 9rem;
+  padding-bottom: 1rem;
+  color: #18364a;
+  font-size: 1.1333333333rem;
+}
+section .about .about-main .dir1 .p-befo2::before {
+  content: "";
+  background-color: #009688;
+  position: absolute;
+  display: block;
+  height: 3.6rem;
+  width: 3.6rem;
+  background: url(../image/Untitled-2.png) no-repeat;
+  background-size: 100%;
+  margin-left: -5rem;
+  margin-top: 0rem;
+}
+section .about .about-main .dir1 .p-befo3 {
+  margin-left: 9rem;
+  padding-bottom: 1rem;
+  color: #18364a;
+  font-size: 1.1333333333rem;
+}
+section .about .about-main .dir1 .p-befo3::before {
+  content: "";
+  background-color: #009688;
+  position: absolute;
+  display: block;
+  height: 3.6rem;
+  width: 3.6rem;
+  background: url(../image/Untitled-3.png) no-repeat;
+  background-size: 100%;
+  margin-left: -5rem;
+  margin-top: 0rem;
+}
+section .about .about-main .dir1 .ppp {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #666c72;
+  margin-left: 9rem;
+  padding-bottom: 1.3333333333rem;
+}
+section .about .about-main .dir2 {
+  padding-left: 5rem;
+  width: 34rem;
+  height: 22.6666666667rem;
+  margin-top: 5rem;
+}
+section .about .about-main .dir2 .relative {
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 100%;
+}
+section .about .about-main .dir2 .relative .absolute {
+  border-radius: 5px;
+  position: absolute;
+  width: 33.3333333333rem;
+  height: 22rem;
+  top: -2.5rem;
+  left: -3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url(../image/truck.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section .about .read-mor {
+  color: black;
+  display: block;
+  position: absolute;
+  bottom: 2rem;
+  left: 44%;
+  padding: 0.7rem 2rem 0.7rem 2rem;
+  background: none;
+  border: none;
+  border-bottom: 0.2rem solid #009688;
+  font-weight: 700;
+  color: #18364a;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+section .pre-about {
+  position: relative;
+  height: 65rem;
+  display: none;
+}
+section .pre-about .hidd {
+  color: black;
+  display: block;
+  position: absolute;
+  bottom: 0rem;
+  font-size: 0.8rem;
+  left: 46%;
+}
+section .pre-about .hidd button {
+  padding: 0.7rem 2rem 0.7rem 2rem;
+  background-color: white;
+  border: none;
+  border-bottom: 0.2rem solid #009688;
+  font-weight: 700;
+  color: #18364a;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+section .pre-about div {
+  display: inline-block;
+  float: left;
+}
+section .pre-about h1 {
+  margin-left: 19rem;
+  font-size: 2.3rem;
+  color: #18364a;
+}
+section .pre-about p:first-child {
+  margin-left: 3rem;
+}
+section .pre-about .texx .log {
+  margin-left: 8.6rem;
+  padding-top: 1.5rem;
+}
+section .pre-about .texx .log::before {
+  content: "";
+  position: absolute;
+  height: 9rem;
+  width: 9rem;
+  background: url(../image/l1.png) no-repeat;
+  background-size: 100%;
+  left: 0rem;
+  margin-top: -0.5rem;
+}
+section .pre-about .two-trap {
+  float: right;
+  overflow: hidden;
+  width: 45rem;
+  position: relative;
+  top: -5.8rem;
+}
+section .pre-about .two-trap dir {
+  overflow: hidden;
+  width: 40rem;
+  height: 32.4rem;
+  margin-left: 7rem;
+}
+section .pre-about .two-trap dir:first-child {
+  transform: skewX(-20deg);
+}
+section .pre-about .two-trap dir:first-child::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  transform: skewX(20deg);
+  height: 100%;
+  overflow: hidden;
+  width: 130%;
+  left: -6rem;
+  background: linear-gradient(to top left, #009688 15%, #009688 100%);
+  background-image: url(../image/scania-r620-scania-trucks.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section .pre-about .two-trap dir:last-child {
+  transform: skewX(20deg);
+}
+section .pre-about .two-trap dir:last-child::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  transform: skewX(-20deg);
+  height: 100%;
+  overflow: hidden;
+  width: 130%;
+  left: -6rem;
+  background: linear-gradient(to top left, #009688 15%, #009688 100%);
+  background-image: url(../image/scania-r730-truck-road-skaniya.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section .sender {
+  height: 100%;
+  font-size: 0;
+  overflow: hidden;
+}
+section .sender dir {
+  background-color: rgba(33, 33, 33, 0.2);
+  height: 100%;
+  padding-bottom: 3rem;
+}
+section .sender div {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+section .sender div h1 {
+  color: white;
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+section .sender div p {
+  font-size: 1.02rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 2.4rem;
+}
+section .sender div a {
+  text-decoration: none;
+  text-align: center;
+  line-height: 3rem;
+  height: 3rem;
+  padding: 0 3.33333rem;
+  font-weight: 400;
+  font-size: 1.02rem;
+  -webkit-border-radius: 3.333333rem;
+  color: #fff;
+  letter-spacing: 0.06777rem;
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+section .sender .d1 {
+  background-image: url(../image/slide01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section .sender .d1:hover {
+  background-size: 120%;
+  transition: 0.7s;
+}
+section .sender .d1:hover .d1-1 {
+  height: 100%;
+  transition: 0.7s;
+  background-color: rgba(33, 33, 33, 0.65);
+}
+section .sender .d1:hover a {
+  background: #18364a;
+}
+section .sender .d1 a {
+  background: linear-gradient(to top left, #00966e 15%, #009688 100%);
+}
+section .sender .d2 {
+  background: linear-gradient(to left top, #009688 15%, #009688 100%) rgba(39, 81, 33, 0.1);
+}
+section .sender .d2 a {
+  background-color: #18364a;
+}
+section .sender .d2:hover {
+  background-size: 110%;
+  transition: 0.7s;
+}
+section .sender .d2:hover .d2-2 {
+  height: 100%;
+  transition: 0.7s;
+  background-color: rgba(33, 33, 33, 0.55);
+}
+section .sender .d2:hover a {
+  background: linear-gradient(to top left, #00966e 15%, #009688 100%);
+  transition: 0.7s;
+}
+section .feature-skills {
+  height: 34.5333333333rem;
+  background-color: white;
+  margin-top: 5rem;
+}
+section .feature-skills h2 {
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 0;
+  color: #18364a;
+  font-size: 3rem;
+  line-height: 1;
+  padding-top: 0.3333333333rem;
+  padding-bottom: 0.6666666667rem;
+}
+section .feature-skills span {
+  font-size: 1.02rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: #18364a;
+}
+section .feature-skills .col-md-3 .content-cell {
+  display: block;
+  padding-top: 2rem;
+  padding-left: 0;
+  text-align: center;
+}
+section .feature-skills .col-md-3 .content-cell .title {
+  font-size: 1.333333rem;
+  color: #18364a;
+  font-weight: 700;
+  margin: 0;
+  text-transform: capitalize;
+}
+section .feature-skills .col-md-3 .content-cell .description {
+  margin-top: 0.6666667rem;
+  margin-bottom: 1rem;
+  font-size: 0.94rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: #666c72;
+}
+section .app-cont {
+  height: 100%;
+  background-color: #232838;
+  background-image: url(../image/now-available.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  padding-bottom: 50px;
+}
+section .app-cont .app-h3 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  font-size: 2.571em;
+  font-weight: 700;
+  color: #FFFFFF;
+  padding-top: 3.8666666667rem;
+  margin-bottom: 3.6666666667rem;
+}
+section .app-cont .app-p {
+  margin: 0;
+  font-weight: 400;
+  color: #E3E3E3;
+  margin-bottom: 4rem;
+  line-height: 2;
+}
+section .app-cont .app-logo {
+  margin-bottom: 3.6666666667rem;
+}
+section .app-cont .app-logo .google {
+  background-color: #fff;
+  width: 12rem;
+  height: 4.6666666667rem;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 4.6666666667rem;
+  display: inline-block;
+  margin: 0;
+}
+section .app-cont .app-logo .google img {
+  width: 62%;
+  vertical-align: middle;
+}
+section .app-cont .app-logo .apple {
+  background-color: #009688;
+  background-image: -webkit-linear-gradient(63deg, #009688 0%, #009688 53%, #009688 100%, #f2504d 100%);
+  width: 12rem;
+  height: 4.6666666667rem;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 4.6666666667rem;
+  display: inline-block;
+  margin: 0;
+}
+section .app-cont .app-logo .apple img {
+  width: 62%;
+  vertical-align: middle;
+}
+section .partner {
+  height: 100%;
+  background-color: white;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+section .footer {
+  height: 31.3333333333rem;
+  background: linear-gradient(to top left, #0d1420 50%, #232838 100%);
+}
+section .footer .mainfot {
+  padding-top: 5rem;
+  width: 78.4rem;
+  height: 22.5333333333rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .footer .mainfot .foterebi {
+  width: 26rem;
+  height: 22.5333333333rem;
+  float: left;
+}
+section .footer .mainfot .foterebi .icon-box {
+  border: solid 1px rgba(255, 255, 255, 0.1);
+  margin-top: 4.3333333333rem;
+  width: 18rem;
+  height: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .footer .mainfot .foterebi .icon-box .span-on-foot {
+  padding: 1rem 1.3333333333rem 1rem 1.3333333333rem;
+  display: inline-block;
+  margin: 0;
+  margin-top: 0.3333333333rem;
+  color: #fff;
+}
+section .footer .mainfot .foterebi .icon-box .icon:first-child::before {
+  content: "";
+  position: absolute;
+  height: 2.0666666667rem;
+  width: 2.0666666667rem;
+  background: url(../image/pin.png) no-repeat;
+  background-size: 100%;
+  margin-left: 0.8666666667rem;
+  margin-top: 0.8rem;
+}
+section .footer .mainfot .foterebi .icon-box .icon2::before {
+  content: "";
+  position: absolute;
+  height: 2.0666666667rem;
+  width: 2.0666666667rem;
+  background: url(../image/newspaper.png) no-repeat;
+  background-size: 100%;
+  margin-left: 0.8666666667rem;
+  margin-top: 0.8rem;
+}
+section .footer .mainfot .foterebi .icon-box .icon3::before {
+  content: "";
+  position: absolute;
+  height: 2.0666666667rem;
+  width: 2.0666666667rem;
+  background: url(../image/link-symbol.png) no-repeat;
+  background-size: 100%;
+  margin-left: 0.8666666667rem;
+  margin-top: 0.8rem;
+}
+section .footer .mainfot .foterebi .textus {
+  font-size: 0.9333333333rem;
+  width: 18rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+section .footer .mainfot .foterebi .textus .first {
+  padding: 0.9333333333rem 0 0.6666666667rem 0;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+  color: #7d7d7d;
+}
+section .footer .mainfot .foterebi .textus .first span {
+  color: #fff;
+}
+section .footer .mainfot .foterebi .textus form {
+  margin-top: 1.3333333333rem;
+}
+section .footer .mainfot .foterebi .textus form .input1 {
+  height: 2.1333333333rem;
+  width: 10rem;
+  padding: 0 0.6666666667rem 0 0.6666666667rem;
+  border: solid 1px #363636;
+  color: #fff;
+  font-size: 1rem;
+  background: none !important;
+  position: relative;
+  top: 0rem;
+  outline: none;
+}
+section .footer .mainfot .foterebi .textus form .input2 {
+  border-radius: 0;
+  border: none;
+  color: #fff;
+  width: 5.5rem;
+  position: relative !important;
+  top: 0;
+  left: 0.5rem;
+  height: 2.2466666667rem;
+  transition: 0.3s;
+  font-size: 1rem;
+  background-color: #029d75;
+}
+section .footer .mainfot .foterebi .textus .last-a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 0.9333333333rem;
+}
+section .footer .mainfot .foterebi .textus .last-a::before {
+  content: "";
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  background: url(../image/next.png) no-repeat;
+  background-size: 100%;
+  margin-left: -1rem;
+  margin-top: 0.4rem;
+}
+section .footer .mobilefot {
+  display: none;
+}
+section .footer .mobilefot .news {
+  background: linear-gradient(to top left, #00966e 15%, #08cf96 100%);
+  padding: 8rem 0;
+}
+section .footer .mobilefot .news p {
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+}
+section .footer .mobilefot .news .input-box {
+  display: flex;
+  border-radius: 10rem;
+  overflow: hidden;
+  width: 60%;
+  margin: 0 auto;
+}
+section .footer .mobilefot .news .input-box input {
+  flex-grow: 1;
+  padding-left: 2rem;
+  font-family: inherit;
+}
+section .footer .mobilefot .news .input-box button {
+  font-size: 1.8rem;
+  background-color: #18364a;
+  color: #fff;
+  border: 1px solid #18364a;
+  padding: 1.2rem 3.4rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+section .footer .mobilefot .info {
+  background: linear-gradient(to top left, #0d1420 50%, #232838 100%);
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+}
+section .footer .mobilefot .info .img-box {
+  width: 230px;
+  margin: 0 auto;
+  position: relative;
+}
+section .footer .mobilefot .info .img-box a {
+  margin-left: 2rem;
+  margin-right: 0.8rem;
+}
+section .footer .mobilefot .info .img-box a::before {
+  content: "";
+  background-color: #009688;
+  position: relative;
+  display: inline-block;
+  height: 4.5rem;
+  width: 4.5rem;
+  background: url(../image/Untitled-1.png) no-repeat;
+  background-size: 100%;
+  margin-left: -1rem;
+  margin-top: 0rem;
+}
+section .footer .mobilefot .info .text-group {
+  width: 219px;
+  margin: 0 auto;
+  position: relative;
+  left: 5.5rem;
+}
+section .footer .mobilefot .info .text-group .contact-heading {
+  font-size: 2.4rem;
+  color: white;
+}
+section .footer .mobilefot .info .text-group .contact-paragraph {
+  font-size: 1.4rem;
+  color: #bab4ce;
+}
+section .footer .mobilefot .info .text-group::before {
+  content: "";
+  background-color: #009688;
+  position: absolute;
+  display: block;
+  height: 4.5rem;
+  width: 4.5rem;
+  background: url(../image/Untitled-1.png) no-repeat;
+  background-size: 100%;
+  margin-left: -6rem;
+  margin-top: 0rem;
+}
+
+@media screen and (max-width: 900px) {
+  header .topnav {
+    height: 10rem;
+  }
+  header .topnav .logo {
+    width: 15%;
+  }
+  header .topnav .dropdown1 {
+    position: absolute;
+    right: 2.5rem;
+    top: 2.6rem;
+    font-size: 2.5rem;
+    border-radius: 10px;
+    color: black;
+  }
+  header .topnav .dropdown1 .dropbtn {
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  header .topnav .dropdown1 .dropbtn::before {
+    content: "";
+    height: 3rem;
+    width: 3rem;
+  }
+  header .topnav .dropdown1 .dropdown-content1 {
+    margin-left: -0.9rem;
+  }
+  header .topnav .dropdown1 .dropdown-content1 a {
+    float: none;
+    color: black;
+    padding: 0.8rem 0;
+    font-size: 0.9rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+  header .topnav .dropdown1:hover .dropdown-content1 {
+    display: block;
+  }
+  header .right-side {
+    top: -10rem;
+  }
+
+  .dropdown .dropbtn {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav .language1 {
+    position: absolute;
+    left: 95%;
+    top: 2.7rem;
+    width: 3.4%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navbar {
+    display: none;
+    position: relative;
+    right: 7.5rem;
+    top: 5.7rem;
+  }
+
+  .navbar2 {
+    display: block;
+    background: #18364a;
+    position: absolute;
+    right: 7.5rem;
+    top: 5.7rem;
+    width: 30rem;
+  }
+
+  .dropdown:last-child {
+    padding-bottom: 20px;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  .topnav.responsive .dropdown {
+    float: none;
+  }
+
+  .topnav.responsive .dropdown-content {
+    position: relative;
+    margin-left: 0;
+  }
+
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 900px) {
+  .two-side .right-side .trapecia {
+    left: 40%;
+  }
+  .two-side .right-side .main-box .white-box {
+    right: 25%;
+  }
+
+  section .vector {
+    width: 100px;
+  }
+  section .feature-skills .back4 .swiper-slide {
+    margin-right: 2.4rem;
+    margin-left: 0.8rem;
+  }
+}
+@media screen and (max-width: 818px) {
+  section .pre-about {
+    height: 107vh;
+    position: relative;
+  }
+  section .pre-about h1 {
+    text-align: center;
+    margin-left: 0;
+  }
+  section .pre-about .hidd {
+    bottom: 2rem;
+  }
+  section .pre-about .two-trap {
+    display: none;
+  }
+  section .pre-about .texx {
+    width: 100%;
+  }
+  section .pre-about .texx dir {
+    width: 431px;
+    margin: 0 auto;
+  }
+  section .pre-about .texx p:first-child {
+    width: 430px !important;
+    font-size: 1.4rem;
+    margin-left: 0 !important;
+  }
+  section .pre-about .texx p:not(:first-child) {
+    position: relative;
+    width: 390px !important;
+    font-size: 1.4rem;
+    margin-left: 10% !important;
+  }
+  section .pre-about .texx p:not(:first-child)::before {
+    left: -8rem;
+  }
+}
+@media screen and (max-width: 780px) {
+  section .about .about-main {
+    width: 100%;
+  }
+
+  section .about .read-mor {
+    margin: 0 !important;
+  }
+}
+@media screen and (max-width: 780px) {
+  .two-side .right-side .main-box .white-box {
+    right: 15%;
+  }
+}
+@media screen and (max-width: 780px) {
+  section .about {
+    height: 49rem;
+  }
+  section .about .text {
+    padding-top: 3.9rem;
+  }
+  section .about .about-main .dir2 {
+    display: none;
+  }
+  section .about .about-main .dir1 {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+  }
+  section .about .about-main .dir1 .d1-p {
+    font-size: 1.8rem;
+    padding-top: 0;
+    padding-bottom: 1.5rem;
+    margin: 0 auto;
+    width: 390px;
+  }
+  section .about .about-main .dir1 .d1-p .dis {
+    display: none;
+  }
+  section .about .about-main .dir1 .d1-p::before {
+    display: none;
+  }
+  section .about .about-main .dir1 .ppp {
+    font-size: 1.3rem;
+  }
+  section .about .about-main .dir1 .p-befo {
+    font-size: 1.6rem;
+  }
+  section .about .about-main .dir1 .p-befo::before {
+    position: absolute;
+    width: 5.3rem;
+    height: 5.3rem;
+    margin-left: -7rem;
+  }
+  section .about .about-main .dir1 .p-befo2 {
+    font-size: 1.6rem;
+  }
+  section .about .about-main .dir1 .p-befo2::before {
+    position: absolute;
+    width: 5.3rem;
+    height: 5.3rem;
+    margin-left: -7rem;
+  }
+  section .about .about-main .dir1 .p-befo3 {
+    font-size: 1.6rem;
+  }
+  section .about .about-main .dir1 .p-befo3::before {
+    position: absolute;
+    width: 5.3rem;
+    height: 5.3rem;
+    margin-left: -7rem;
+  }
+  section .about .about-main .dir1 .dir1-cont {
+    width: 400px;
+    margin: 0 auto;
+  }
+  section .about .read-mor {
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+    margin: 0 auto;
+    top: 1rem;
+  }
+  section .about .pre-about {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 745px) {
+  .two-side .left-side {
+    width: 400px;
+    border: 1px solid red;
+    left: 0;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .two-side .right-side {
+    position: relative;
+  }
+  .two-side .right-side .trapecia {
+    display: none;
+  }
+  .two-side .right-side .main-box {
+    position: absolute;
+    z-index: 50;
+    height: 12.5rem;
+    top: 0;
+    width: 100%;
+    background-color: red;
+    padding: 0px;
+    vertical-align: none;
+    transition: 0.5;
+  }
+  .two-side .right-side .white-box {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    box-shadow: rgba(33, 33, 33, 0.3) 0px 4px 18px;
+    background-image: none;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    right: 0% !important;
+  }
+  .two-side .right-side .white-box h3 {
+    font-size: 3rem;
+    color: #212121;
+    opacity: 0.75;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .two-side .right-side .white-box .box-p {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #212121;
+    opacity: 0.75;
+    margin-top: 0.8rem;
+  }
+  .two-side .right-side .white-box input {
+    background-color: transparent;
+    color: #757575;
+    outline: none;
+    position: relative;
+    width: 35%;
+    font-size: 1.04rem;
+    text-transform: uppercase;
+    border-width: 0px 0px 0.1333rem;
+    border-style: solid;
+    border-color: transparent transparent #757575;
+    border-image: initial;
+    padding: 0.6667rem 0rem;
+    border-bottom: 0.1333rem solid #757575;
+  }
+  .two-side .right-side .white-box .track {
+    display: none;
+  }
+  .two-side .right-side .white-box .glas {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  section .partner img {
+    width: 100px;
+  }
+  section .footer {
+    height: 0;
+  }
+  section .footer .mainfot {
+    display: none;
+  }
+  section .footer .mobilefot {
+    display: block;
+  }
+
+  .swiper-container {
+    width: 380px;
+  }
+
+  .swiper-slide {
+    width: 170px !important;
+  }
+}
+@media screen and (max-width: 615px) {
+  section .app-cont img {
+    width: 70%;
+  }
+
+  section .sender div {
+    width: 100%;
+    display: block;
+    float: none;
+  }
+  section .sender div h1 {
+    font-size: 3rem;
+    padding-top: 2.5rem;
+  }
+  section .sender div p {
+    font-size: 1.5rem;
+  }
+  section .sender div a {
+    padding: 0.7rem 4.33333rem;
+  }
+}
+@media screen and (max-width: 530px) {
+  section .partner img {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 500px) {
+  section .footer .mobilefot .news .input-box {
+    flex-wrap: wrap;
+    border-radius: 0.1px;
+    margin: 0 auto;
+  }
+
+  section .footer .mobilefot .news .input-box input {
+    display: block;
+    border-radius: 10rem;
+    margin-bottom: 2rem;
+    border: none;
+    padding: 1rem 2rem;
+    width: 100%;
+    outline: none;
+  }
+
+  section .footer .mobilefot .news .input-box button {
+    display: block;
+    border-radius: 10rem;
+    margin: 0 auto;
+    padding: 1.6rem 4rem;
+  }
+
+  section .app-cont img {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 420px) {
+  section .partner img {
+    width: 70px;
+  }
+}
+
+/*# sourceMappingURL=test.css.map */

@@ -1,0 +1,119 @@
+section .footer {
+  height: 31.3333333333rem;
+  background: linear-gradient(to top left, #0d1420 50%, #232838 100%);
+}
+section .footer .mainfot {
+  padding-top: 5rem;
+  width: 78.4rem;
+  height: 22.5333333333rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .footer .mainfot .foterebi {
+  width: 26rem;
+  height: 22.5333333333rem;
+  float: left;
+}
+section .footer .mainfot .foterebi .icon-box {
+  border: solid 1px rgba(255, 255, 255, 0.1);
+  margin-top: 4.3333333333rem;
+  width: 18rem;
+  height: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .footer .mainfot .foterebi .icon-box .span-on-foot {
+  padding: 1rem 1.3333333333rem 1rem 1.3333333333rem;
+  display: inline-block;
+  margin: 0;
+  margin-top: 0.3333333333rem;
+  color: #fff;
+}
+section .footer .mainfot .foterebi .icon-box .icon:first-child::before {
+  content: "";
+  position: absolute;
+  height: 2.0666666667rem;
+  width: 2.0666666667rem;
+  background: url(../image/pin.png) no-repeat;
+  background-size: 100%;
+  margin-left: 0.8666666667rem;
+  margin-top: 0.8rem;
+}
+section .footer .mainfot .foterebi .icon-box .icon2::before {
+  content: "";
+  position: absolute;
+  height: 2.0666666667rem;
+  width: 2.0666666667rem;
+  background: url(../image/newspaper.png) no-repeat;
+  background-size: 100%;
+  margin-left: 0.8666666667rem;
+  margin-top: 0.8rem;
+}
+section .footer .mainfot .foterebi .icon-box .icon3::before {
+  content: "";
+  position: absolute;
+  height: 2.0666666667rem;
+  width: 2.0666666667rem;
+  background: url(../image/link-symbol.png) no-repeat;
+  background-size: 100%;
+  margin-left: 0.8666666667rem;
+  margin-top: 0.8rem;
+}
+section .footer .mainfot .foterebi .textus {
+  font-size: 0.9333333333rem;
+  width: 18rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+section .footer .mainfot .foterebi .textus .first {
+  padding: 0.9333333333rem 0 0.6666666667rem 0;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+  color: #7d7d7d;
+}
+section .footer .mainfot .foterebi .textus .first span {
+  color: #fff;
+}
+section .footer .mainfot .foterebi .textus form {
+  margin-top: 1.3333333333rem;
+}
+section .footer .mainfot .foterebi .textus form .input1 {
+  height: 2.1333333333rem;
+  width: 10rem;
+  padding: 0 0.6666666667rem 0 0.6666666667rem;
+  border: solid 1px #363636;
+  color: #fff;
+  font-size: 1rem;
+  background: none !important;
+  position: relative;
+  top: 0rem;
+  outline: none;
+}
+section .footer .mainfot .foterebi .textus form .input2 {
+  border-radius: 0;
+  border: none;
+  color: #222;
+  width: 5.5rem;
+  position: relative !important;
+  top: 0;
+  left: 0.5rem;
+  height: 2.2466666667rem;
+  transition: 0.3s;
+  font-size: 1rem;
+  background-color: #029d75;
+}
+section .footer .mainfot .foterebi .textus .last-a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 0.9333333333rem;
+}
+section .footer .mainfot .foterebi .textus .last-a::before {
+  content: "";
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  background: url(../image/next.png) no-repeat;
+  background-size: 100%;
+  margin-left: -1rem;
+  margin-top: 0.4rem;
+}
